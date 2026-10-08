@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the thesis when using AAP-SQL in research."
+type: software
+title: "AAP-SQL: Adaptive Augmented Prompting for Text-to-SQL Generation"
+authors:
+  - family-names: Pan
+    given-names: Tung-Wei
+    affiliation: National Dong Hwa University
+repository-code: "https://github.com/Tommyweige/AAP-SQL"
+version: 0.2.0
+license: Apache-2.0
+preferred-citation:
+  type: thesis
+  title: "An Efficient and Low-Cost Adaptive Augmented Prompting Framework for Text-to-SQL Generation"
+  authors:
+    - family-names: Pan
+      given-names: Tung-Wei
+  institution:
+    name: National Dong Hwa University
+  year: 2026
+  month: 6
+  url: "https://hdl.handle.net/11296/rjag8t"

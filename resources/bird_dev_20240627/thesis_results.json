@@ -1,0 +1,297 @@
+{
+  "source": {
+    "kind": "thesis",
+    "title": "An Efficient and Low-Cost Adaptive Augmented Prompting Framework for Text-to-SQL Generation",
+    "author": "Tung-Wei Pan",
+    "year": 2026,
+    "month": 6,
+    "url": "https://hdl.handle.net/11296/rjag8t",
+    "pdf_sha256": "fc3d8fc50532d5eb5a434f2786bbb477a7861a763393305e503665b7c9ecf782"
+  },
+  "dataset": {
+    "release": "dev_20240627",
+    "questions": 1534,
+    "databases": 11,
+    "engine": "SQLite"
+  },
+  "primary_generator": "Gemini 2.5 Flash-Lite",
+  "table_4_1_training": [
+    {
+      "module": "retriever",
+      "best_val_loss": 0.460746,
+      "test_loss": 0.486277,
+      "best_epoch": 21,
+      "completed_epochs": 25
+    },
+    {
+      "module": "reranker",
+      "best_val_loss": 0.241477,
+      "test_accuracy": 0.90501,
+      "best_epoch": 4,
+      "completed_epochs": 8
+    }
+  ],
+  "table_4_2_retrieval": [
+    {
+      "stage": "fine-tuned-top50",
+      "gold_recall_percent": 86.01,
+      "complete_coverage_percent": 56.26,
+      "average_missing_columns": 0.752
+    },
+    {
+      "stage": "fine-tuned-top10-no-reranking",
+      "gold_recall_percent": 65.86,
+      "complete_coverage_percent": 28.94,
+      "average_missing_columns": 1.774
+    },
+    {
+      "stage": "fine-tuned-reranked-top10",
+      "gold_recall_percent": 75.47,
+      "complete_coverage_percent": 38.2,
+      "average_missing_columns": 1.285
+    },
+    {
+      "stage": "generic-reranked-top10",
+      "gold_recall_percent": 68.7,
+      "complete_coverage_percent": 31.49,
+      "average_missing_columns": 1.604
+    }
+  ],
+  "table_4_3_method_comparison": [
+    {
+      "method": "AAP-SQL",
+      "execution_accuracy_percent": 62.58,
+      "prompt_tokens": 3204990,
+      "completion_tokens": 115045,
+      "total_tokens": 3320035
+    },
+    {
+      "method": "DIN-SQL (thesis reproduction)",
+      "execution_accuracy_percent": 61.08,
+      "prompt_tokens": 45849661,
+      "completion_tokens": 1471252,
+      "total_tokens": 47320913
+    },
+    {
+      "method": "CHESS (thesis reproduction)",
+      "execution_accuracy_percent": 61.21,
+      "prompt_tokens": 38053070,
+      "completion_tokens": 4375655,
+      "total_tokens": 42428725
+    },
+    {
+      "method": "Baseline + Evidence",
+      "execution_accuracy_percent": 57.76,
+      "prompt_tokens": 2077284,
+      "completion_tokens": 111024,
+      "total_tokens": 2188308
+    }
+  ],
+  "table_4_4_generators": [
+    {
+      "generator": "Gemini 2.5 Flash-Lite",
+      "din_sql_ex_percent": 61.08,
+      "chess_ex_percent": 61.21,
+      "aap_sql_ex_percent": 62.58,
+      "baseline_ex_percent": 57.76
+    },
+    {
+      "generator": "Gemini 3.1 Flash-Lite",
+      "din_sql_ex_percent": 66.56,
+      "chess_ex_percent": 66.2,
+      "aap_sql_ex_percent": 68.97,
+      "baseline_ex_percent": 65.84
+    },
+    {
+      "generator": "Mistralai_devstral_2_123b",
+      "din_sql_ex_percent": null,
+      "chess_ex_percent": null,
+      "aap_sql_ex_percent": 58.38,
+      "baseline_ex_percent": 54.49
+    }
+  ],
+  "table_4_5_with_evidence": [
+    {
+      "configuration": "E2-R1-V1-P1-L1-FK2",
+      "execution_accuracy_percent": 62.58,
+      "total_tokens": 3320035
+    },
+    {
+      "configuration": "no-reranking",
+      "execution_accuracy_percent": 61.34,
+      "total_tokens": 3166373
+    },
+    {
+      "configuration": "no-probing",
+      "execution_accuracy_percent": 60.63,
+      "total_tokens": 2848901
+    },
+    {
+      "configuration": "no-literals",
+      "execution_accuracy_percent": 60.89,
+      "total_tokens": 3214700
+    },
+    {
+      "configuration": "generic-retriever",
+      "execution_accuracy_percent": 60.95,
+      "total_tokens": 3217487
+    },
+    {
+      "configuration": "ddl-fk-only",
+      "execution_accuracy_percent": 61.93,
+      "total_tokens": 3218735
+    },
+    {
+      "configuration": "baseline-with-evidence",
+      "execution_accuracy_percent": 57.76,
+      "total_tokens": 2188308
+    }
+  ],
+  "table_4_6_without_evidence": [
+    {
+      "configuration": "E2-R1-V1-P1-L1-FK2-no-evidence",
+      "execution_accuracy_percent": 52.1,
+      "total_tokens": 3182639
+    },
+    {
+      "configuration": "no-reranking-no-evidence",
+      "execution_accuracy_percent": 51.04,
+      "total_tokens": 3125062
+    },
+    {
+      "configuration": "no-probing-no-evidence",
+      "execution_accuracy_percent": 51.83,
+      "total_tokens": 2808024
+    },
+    {
+      "configuration": "no-literals-no-evidence",
+      "execution_accuracy_percent": 50.52,
+      "total_tokens": 3175919
+    },
+    {
+      "configuration": "ddl-fk-only-no-evidence",
+      "execution_accuracy_percent": 51.24,
+      "total_tokens": 3085902
+    },
+    {
+      "configuration": "generic-retriever-no-evidence",
+      "execution_accuracy_percent": 50.72,
+      "total_tokens": 3171008
+    },
+    {
+      "configuration": "baseline",
+      "execution_accuracy_percent": 39.05,
+      "total_tokens": 2067645
+    }
+  ],
+  "section_4_3_4_prompt_variants": [
+    {
+      "configuration": "task-instructions",
+      "execution_accuracy_percent": 61.41,
+      "total_tokens": 3893904
+    },
+    {
+      "configuration": "explicit-cot",
+      "execution_accuracy_percent": 58.87,
+      "total_tokens": 4582593
+    }
+  ],
+  "table_4_16_errors": [
+    {
+      "category": "schema-only",
+      "baseline": 23,
+      "aap_sql": 12
+    },
+    {
+      "category": "literal-only",
+      "baseline": 91,
+      "aap_sql": 72
+    },
+    {
+      "category": "join-only",
+      "baseline": 106,
+      "aap_sql": 94
+    },
+    {
+      "category": "compound",
+      "baseline": 242,
+      "aap_sql": 247
+    },
+    {
+      "category": "filter-logic",
+      "baseline": 102,
+      "aap_sql": 81
+    },
+    {
+      "category": "others",
+      "baseline": 84,
+      "aap_sql": 68
+    }
+  ],
+  "table_4_17_compound_errors": [
+    {
+      "combination": "schema + join",
+      "baseline": 140,
+      "aap_sql": 146
+    },
+    {
+      "combination": "schema + join + literal",
+      "baseline": 58,
+      "aap_sql": 57
+    },
+    {
+      "combination": "join + literal",
+      "baseline": 34,
+      "aap_sql": 31
+    },
+    {
+      "combination": "schema + literal",
+      "baseline": 10,
+      "aap_sql": 13
+    }
+  ],
+  "table_4_20_transitions": [
+    {
+      "baseline_correct": true,
+      "aap_correct": true,
+      "questions": 817
+    },
+    {
+      "baseline_correct": true,
+      "aap_correct": false,
+      "questions": 69
+    },
+    {
+      "baseline_correct": false,
+      "aap_correct": true,
+      "questions": 143
+    },
+    {
+      "baseline_correct": false,
+      "aap_correct": false,
+      "questions": 505
+    }
+  ],
+  "tables_4_18_19_coverage": [
+    {
+      "category": "initial-recall-incomplete",
+      "questions": 671,
+      "incorrect": 275
+    },
+    {
+      "category": "recall-complete-top10-incomplete",
+      "questions": 277,
+      "incorrect": 116
+    },
+    {
+      "category": "top10-complete-sql-incorrect",
+      "questions": 183,
+      "incorrect": 183
+    },
+    {
+      "category": "top10-complete-sql-correct",
+      "questions": 403,
+      "incorrect": 0
+    }
+  ]
+}

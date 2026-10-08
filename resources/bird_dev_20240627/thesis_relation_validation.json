@@ -1,0 +1,602 @@
+{
+  "source_pdf_sha256": "fc3d8fc50532d5eb5a434f2786bbb477a7861a763393305e503665b7c9ecf782",
+  "dataset_path_release": "dev_20240627",
+  "method": "thesis-reconstructed-directed-relations-v2",
+  "observed": {
+    "declared_total": 104,
+    "declared_numeric": 86,
+    "numeric_candidates": 45,
+    "recovered_numeric": 42,
+    "reverse_predictions": 0,
+    "new_numeric": 3,
+    "omission_reasons": {
+      "outside_scope": 5,
+      "name_evidence": 38,
+      "ambiguous_direction": 1
+    }
+  },
+  "thesis_table_4_7": {
+    "declared_total": 104,
+    "declared_numeric": 86,
+    "numeric_candidates": 45,
+    "recovered_numeric": 42,
+    "reverse_predictions": 0,
+    "new_numeric": 3
+  },
+  "gold_usage": [
+    {
+      "db_id": "debit_card_specializing",
+      "edge": [
+        "transactions_1k",
+        "CustomerID",
+        "customers",
+        "CustomerID"
+      ],
+      "question_count": 9
+    },
+    {
+      "db_id": "debit_card_specializing",
+      "edge": [
+        "transactions_1k",
+        "GasStationID",
+        "gasstations",
+        "GasStationID"
+      ],
+      "question_count": 18
+    },
+    {
+      "db_id": "debit_card_specializing",
+      "edge": [
+        "transactions_1k",
+        "ProductID",
+        "products",
+        "ProductID"
+      ],
+      "question_count": 4
+    }
+  ],
+  "dev_json_sha256": "630272f2b1c44d8cef2c3b246f623355cf0bbc1e832c81061df895530dfc2f06",
+  "omissions": [
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "comments",
+        "postid",
+        "posts",
+        "id"
+      ],
+      "reason": "outside_scope",
+      "detail": "sampling_limits",
+      "sample_metrics": {
+        "distinct_coverage": 0.6053,
+        "row_coverage": 0.5654014975471211,
+        "target_uniqueness": 0.5436791857860513
+      }
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "posthistory",
+        "postid",
+        "posts",
+        "id"
+      ],
+      "reason": "outside_scope",
+      "detail": "sampling_limits",
+      "sample_metrics": {
+        "distinct_coverage": 0.99992,
+        "row_coverage": 0.805555,
+        "target_uniqueness": 0.5436791857860513
+      }
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "postlinks",
+        "relatedpostid",
+        "posts",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "postlinks",
+        "postid",
+        "posts",
+        "id"
+      ],
+      "reason": "outside_scope",
+      "detail": "sampling_limits",
+      "sample_metrics": {
+        "distinct_coverage": 0.5042083114150447,
+        "row_coverage": 0.48847054584759503,
+        "target_uniqueness": 0.5436791857860513
+      }
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "posts",
+        "parentid",
+        "posts",
+        "id"
+      ],
+      "reason": "outside_scope",
+      "detail": "same_table",
+      "sample_metrics": null
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "posts",
+        "owneruserid",
+        "users",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "posts",
+        "lasteditoruserid",
+        "users",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "codebase_community",
+      "edge": [
+        "tags",
+        "excerptpostid",
+        "posts",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_11",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_10",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_9",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_8",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_7",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_6",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_5",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_4",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_3",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_2",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_player_1",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_11",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_10",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_9",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_8",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_7",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_6",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_5",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_4",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_3",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_2",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_player_1",
+        "player",
+        "player_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "away_team_api_id",
+        "team",
+        "team_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "match",
+        "home_team_api_id",
+        "team",
+        "team_api_id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "european_football_2",
+      "edge": [
+        "team_attributes",
+        "team_fifa_api_id",
+        "team",
+        "team_fifa_api_id"
+      ],
+      "reason": "ambiguous_direction",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "formula_1",
+      "edge": [
+        "races",
+        "year",
+        "seasons",
+        "year"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "formula_1",
+      "edge": [
+        "results",
+        "statusid",
+        "status",
+        "statusid"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "student_club",
+      "edge": [
+        "member",
+        "zip",
+        "zip_code",
+        "zip_code"
+      ],
+      "reason": "outside_scope",
+      "detail": "unmarked_numeric_name",
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "hero_attribute",
+        "hero_id",
+        "superhero",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "hero_power",
+        "power_id",
+        "superpower",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "hero_power",
+        "hero_id",
+        "superhero",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "superhero",
+        "skin_colour_id",
+        "colour",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "superhero",
+        "hair_colour_id",
+        "colour",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "superhero",
+      "edge": [
+        "superhero",
+        "eye_colour_id",
+        "colour",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "thrombosis_prediction",
+      "edge": [
+        "examination",
+        "id",
+        "patient",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    },
+    {
+      "db_id": "thrombosis_prediction",
+      "edge": [
+        "laboratory",
+        "id",
+        "patient",
+        "id"
+      ],
+      "reason": "name_evidence",
+      "detail": null,
+      "sample_metrics": null
+    }
+  ],
+  "identification_limit": "Compatible reconstruction, not uniquely identified historical source; inferred using published aggregate constraints."
+}

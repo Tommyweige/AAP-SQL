@@ -1,0 +1,3992 @@
+[
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.School Type",
+    "description": "This column stores the type of school, such as \"Elementary Schools (Public)\" or \"High Schools (Public)\", as free-form text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.District Name",
+    "description": "This column stores the name of a school district as a text string, such as \"Los Angeles Unified\" or \"Yucaipa-Calimesa Joint Unified\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Charter School Number",
+    "description": "The Charter School Number column stores a school's identifier as text, formatted with leading zeros, but is often missing."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.School Code",
+    "description": "The `School Code` column stores a unique, text-based identifier for each school, formatted as a string of digits."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Charter School (Y/N)",
+    "description": "This column indicates whether a school is a charter school, represented as a binary value (0 for No, 1 for Yes)."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Academic Year",
+    "description": "This column stores the academic year, which is consistently formatted as \"2014-2015\" for all records."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.District Code",
+    "description": "District Code stores integer values representing unique district identifiers, typically ranging from 10017 to 76901."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.District Type",
+    "description": "The `District Type` column stores the type of educational district as a text string, such as \"Unified School District\" or \"County Office of Education (COE)\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.NSLP Provision Status",
+    "description": "The `NSLP Provision Status` column stores the type of National School Lunch Program (NSLP) provision used, such as \"Provision 2\" or \"CEP\", but is missing in a large percentage of rows."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Educational Option Type",
+    "description": "This column stores the type of educational option a student is enrolled in, represented as text, with values such as \"Traditional,\" \"Continuation School,\" and \"Alternative School of Choice.\""
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Charter Funding Type",
+    "description": "This column stores the type of charter funding, such as \"Directly funded\" or \"Locally funded\", though it is often missing."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.CDSCode",
+    "description": "CDSCode stores a unique text-based code for each record in the table, formatted as a string of digits."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Low Grade",
+    "description": "The `Low Grade` column stores the lowest grade level achieved, represented as a text value that can be numeric or a letter grade."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Free Meal Count (K-12)",
+    "description": "The `Free Meal Count (K-12)` column stores the number of free meals provided to students in grades K-12, represented as a real number."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.High Grade",
+    "description": "The `High Grade` column stores the highest grade level achieved by an individual, represented as a numeric grade level, \"Adult\", or \"Post Secondary\" text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.FRPM Count (K-12)",
+    "description": "The `FRPM Count (K-12)` column stores the Free and Reduced Price Meals count for students in grades K-12, represented as a real number."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.County Code",
+    "description": "The `County Code` column stores the two-digit code representing the county associated with a record, formatted as text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.County Name",
+    "description": "This column stores the name of a county in text format, with values like \"Los Angeles\" and \"Yuba\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Enrollment (Ages 5-17)",
+    "description": "The `Enrollment (Ages 5-17)` column stores the number of enrolled individuals aged 5-17, represented as a real number with a typical range from 1 to 5271."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.School Name",
+    "description": "School Name stores the name of the school, typically as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.IRC",
+    "description": "This column stores boolean (true/false) values represented as integers, with 0 indicating false and 1 indicating true."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.cds",
+    "description": "The `cds` column stores a unique, numeric identifier for each school district, formatted as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.sname",
+    "description": "The `sname` column stores the name of a school as a text string, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.dname",
+    "description": "This column stores the name of the school district as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.FRPM Count (Ages 5-17)",
+    "description": "The `FRPM Count (Ages 5-17)` column stores the number of students aged 5-17 eligible for Free and Reduced-Price Meals, represented as a real number."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Enrollment (K-12)",
+    "description": "The `Enrollment (K-12)` column stores the total K-12 student enrollment count as a real number, ranging from 1.0 to 5333.0."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.rtype",
+    "description": "The `rtype` column stores a single-character code, either \"S\" or \"D\", representing the type of SAT score."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Free Meal Count (Ages 5-17)",
+    "description": "The `Free Meal Count (Ages 5-17)` column stores the number of free meals provided to students aged 5-17, represented as a real number."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Percent (%) Eligible FRPM (K-12)",
+    "description": "The `Percent (%) Eligible FRPM (K-12)` column stores the percentage of students eligible for Free and Reduced-Price Meals (FRPM) in a school, represented as a decimal value between 0 and 1."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Percent (%) Eligible Free (K-12)",
+    "description": "The `Percent (%) Eligible Free (K-12)` column stores the percentage of students eligible for free meals (K-12), represented as a decimal value between 0 and 1."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.enroll12",
+    "description": "The `enroll12` column stores the integer number of students enrolled in the 12th grade, ranging from 0 to 43324."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.NCESDist",
+    "description": "The `NCESDist` column stores the National Center for Education Statistics (NCES) district ID as a text string, typically a 7-digit number."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.cname",
+    "description": "This column stores the name of a California county as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.NumGE1500",
+    "description": "NumGE1500 stores the number of students with SAT scores greater than or equal to 1500, represented as an integer, and may contain missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.2013-14 CALPADS Fall 1 Certification Status",
+    "description": "This column stores the 2013-14 CALPADS Fall 1 Certification Status, which is consistently marked as 1 for all records."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.NCESSchool",
+    "description": "NCESSchool stores the school's National Center for Education Statistics (NCES) school ID as text, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.CDSCode",
+    "description": "The `CDSCode` column stores a unique California Department of Education (CDE) identification code for each school, formatted as a text string of numeric characters."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Percent (%) Eligible FRPM (Ages 5-17)",
+    "description": "Percent (%) Eligible FRPM (Ages 5-17) stores the percentage of eligible students aged 5-17 for Free and Reduced Price Meals, represented as a decimal value between 0 and 1."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.County",
+    "description": "The `County` column in the `schools` table stores the name of the county in which a school is located, represented as text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.NumTstTakr",
+    "description": "NumTstTakr stores the number of test takers, represented as an integer, for a given SAT score record."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.School",
+    "description": "The `School` column stores the name of the school as a text string, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.District",
+    "description": "The `District` column in the `schools` table stores the name of the school district as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.City",
+    "description": "The `City` column in the `schools` table stores the name of the city where the school is located as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Street",
+    "description": "The `Street` column in the `schools` table stores the street address of the school as a text string, with addresses varying in format and length."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "frpm.Percent (%) Eligible Free (Ages 5-17)",
+    "description": "Percent (%) Eligible Free (Ages 5-17) stores the percentage of children ages 5-17 eligible for free meals, represented as a decimal value between 0 and 1."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Zip",
+    "description": "The `Zip` column stores the school's postal zip code as text, often in a five-digit or extended format (e.g., \"91723\" or \"93618-1825\")."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.MailStreet",
+    "description": "The `MailStreet` column in the `schools` table stores the mailing street address for a school, typically formatted as a street number and name, a post office box, or a building name."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.StatusType",
+    "description": "The `StatusType` column in the `schools` table stores the current status of a school, such as \"Active\", \"Closed\", \"Merged\", or \"Pending\", as text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.MailState",
+    "description": "This column stores the state where the school's mailing address is located, and it appears that all schools are located in California (\"CA\")."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Ext",
+    "description": "The `Ext` column stores the school's phone extension as text, with a high percentage of missing values and observed values ranging from \"0\" to \"9100\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.StreetAbr",
+    "description": "The `StreetAbr` column in the `schools` table stores the abbreviated street address of a school as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.State",
+    "description": "This column stores the state in which the school is located, represented by the two-letter abbreviation \"CA\" for all schools in this dataset."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.CharterNum",
+    "description": "CharterNum stores the charter number assigned to a school, formatted as text, with a high percentage of missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.FundingType",
+    "description": "The FundingType column stores the type of funding a school receives, with values like \"Directly funded\" or \"Locally funded\", but is null in over 90% of rows."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.MailZip",
+    "description": "The `MailZip` column stores the mailing ZIP code for the school, typically formatted as a five-digit number or a ZIP+4 code."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.AvgScrMath",
+    "description": "AvgScrMath stores the average SAT score for mathematics, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Phone",
+    "description": "The `Phone` column stores the phone number of the school as text, typically formatted with area code in parentheses, and may be missing for some schools."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.MailCity",
+    "description": "The `MailCity` column stores the mailing city for a school, represented as a text string."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.AvgScrWrite",
+    "description": "AvgScrWrite stores the average SAT writing scores as integers, with some missing values represented as NULL."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.DOCType",
+    "description": "This column stores the type of school or educational entity as a text string, such as \"Unified School District\" or \"Elementary School District\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.DOC",
+    "description": "The `DOC` column in the `schools` table stores a two-digit code, represented as text, likely identifying a specific designation or category for each school."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.SOC",
+    "description": "The `SOC` column in the `schools` table stores two-digit codes, potentially representing school types or categories, as text values with some missing data."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.SOCType",
+    "description": "The `SOCType` column stores the school type as a text string, such as \"Elementary Schools (Public)\" or \"High Schools (Public)\", with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.ClosedDate",
+    "description": "ClosedDate stores the date a school closed, formatted as YYYY-MM-DD, and is often missing."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.OpenDate",
+    "description": "The `OpenDate` column stores the date a school opened, formatted as YYYY-MM-DD, and may contain null values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.EILName",
+    "description": "EILName stores the educational instruction level of a school, represented as text, with common values including \"Elementary\", \"High School\", and \"Ungraded\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.EILCode",
+    "description": "The `EILCode` column stores a school type code, such as ELEM, HS, or UG, as text."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.GSserved",
+    "description": "The `GSserved` column stores the grade levels served by a school as text, such as \"K-5\" or \"9-12\", and may contain missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmFName1",
+    "description": "AdmfName1 stores the first name of a school administrator as a text string, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.EdOpsName",
+    "description": "The `EdOpsName` column stores the type of educational option offered by a school, such as \"Traditional\" or \"Continuation School,\" and may be missing in approximately 32% of rows."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Charter",
+    "description": "This column indicates whether a school is a charter school, represented as a binary value (0 for no, 1 for yes)."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmLName1",
+    "description": "The `AdmLName1` column stores the last name of the first school administrator, with values in text format and some missing entries."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.GSoffered",
+    "description": "The `GSoffered` column in the `schools` table stores the grade levels offered by a school as a text string, such as \"K-5\" or \"9-12\", and may contain null values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Latitude",
+    "description": "The `Latitude` column in the `schools` table stores the latitude coordinate of the school's location as a real number, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Magnet",
+    "description": "The `Magnet` column indicates whether a school has a magnet program, represented as a binary value (0 for no, 1 for yes), and may be missing for some schools."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Longitude",
+    "description": "Longitude stores the geographic longitude of the school, represented as a real number, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmFName2",
+    "description": "AdmfName2 stores the second administrator's first name as text, but is often missing."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Virtual",
+    "description": "The `Virtual` column in the `schools` table stores a text code indicating whether a school is virtual, potentially using values like 'N' for no, 'P' for partial, and 'F' for fully virtual, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "satscores.AvgScrRead",
+    "description": "AvgScrRead stores the average SAT critical reading score as an integer, with some missing values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmEmail3",
+    "description": "AdmEmail3 stores the third administrative email address for a school, typically in standard email format, but is mostly NULL."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmEmail2",
+    "description": "AdmEmail2 stores the secondary administrative email address for a school, typically in standard email format, but is often missing."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmEmail1",
+    "description": "The `AdmEmail1` column stores the primary email address for school administrators, typically in a standard email format, and may be missing for some records."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.LastUpdate",
+    "description": "LastUpdate stores the date when the school's information was last updated, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.MailStrAbr",
+    "description": "The `MailStrAbr` column in the `schools` table stores the abbreviated mailing address string for a school, typically formatted as a street address or PO Box."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmLName2",
+    "description": "The `AdmLName2` column stores the last name of a second administrator, typically in a text format, but is often empty."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmLName3",
+    "description": "AdmLName3 stores the last name of a school administrator, when available, as free-form text, but is mostly NULL."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.EdOpsCode",
+    "description": "EdOpsCode is a text code, potentially null, representing the educational operations type of a school, with a limited set of possible values like \"TRAD\", \"CON\", and \"YTH\"."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.Website",
+    "description": "The Website column stores the website address for each school as a text string, often starting with \"www.\" and potentially containing null values."
+  },
+  {
+    "db_id": "california_schools",
+    "full_name": "schools.AdmFName3",
+    "description": "This column stores the third administrator's first name as text, but is mostly empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.id",
+    "description": "The `id` column is an integer that uniquely identifies each card in the table, with no missing values and a sequential numbering pattern."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.borderColor",
+    "description": "This column stores the border color of a card, represented as text, with common values including black, white, gold, and silver."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.cardKingdomId",
+    "description": "The `cardKingdomId` column stores the card's unique identifier from Card Kingdom as text, with some missing values, and typically contains numeric values between 10000 and 72285."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.cardKingdomFoilId",
+    "description": "The `cardKingdomFoilId` column stores the Card Kingdom identification number for the foil version of a card, as text, and may be null if the card is not available as a foil."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.colorIdentity",
+    "description": "The `colorIdentity` column stores the color identity of a card as a string of color abbreviations (B, G, R, U, W), and may be null."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.colorIndicator",
+    "description": "The `colorIndicator` column stores a single-character code (R, G, U, B, or W) representing a card's color, but is mostly empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.colors",
+    "description": "The `colors` column stores the color identity of a card as a text string, with possible values including \"B\", \"R\", \"G\", \"W\", and \"U\", and allows null values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.artist",
+    "description": "The `artist` column stores the name of the artist who created the card art, typically as a string of characters."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.convertedManaCost",
+    "description": "The `convertedManaCost` column stores the total mana cost of a card as a real number, typically ranging from 0 to 9, but with some outliers extending to 1,000,000."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.faceName",
+    "description": "The `faceName` column stores the name of a card face as text, but is often empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.faceConvertedManaCost",
+    "description": "The `faceConvertedManaCost` column stores the converted mana cost of a Magic: The Gathering card face as a decimal number, but is predominantly NULL."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.edhrecRank",
+    "description": "The `edhrecRank` column stores the popularity rank of a card on EDHREC as an integer, with lower numbers indicating higher popularity, and some missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.flavorName",
+    "description": "The `flavorName` column stores the descriptive name or title associated with a card, but is currently unpopulated for all rows."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.availability",
+    "description": "The `availability` column stores the platform or medium where a card is available, such as \"mtgo\", \"paper\", or \"arena\", as a text string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.flavorText",
+    "description": "The `flavorText` column stores descriptive or lore-related text associated with a card, often presented as a quote or short narrative, and can be missing for some cards."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.hand",
+    "description": "The `hand` column stores a limited set of integer values, likely representing a player's hand in a game, but is mostly empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.frameEffects",
+    "description": "The `frameEffects` column stores the special frame effect applied to a card, such as \"extendedart\" or \"showcase\", but is often empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.frameVersion",
+    "description": "The `frameVersion` column stores the version or year of the card frame as text, with values including years like 2015, 2003, and potentially a value like \"future\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.hasContentWarning",
+    "description": "This column stores boolean values (0 or 1) indicating whether a card has a content warning."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.duelDeck",
+    "description": "The `duelDeck` column stores a text value, either \"a\" or \"b\", indicating a duel deck association, but is mostly NULL (97.2% of rows)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.hasAlternativeDeckLimit",
+    "description": "This column indicates whether a card has an alternative deck limit, represented as a boolean value (0 for false, 1 for true)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.hasFoil",
+    "description": "This column indicates whether a card has a foil treatment, represented as a boolean integer where 1 signifies foil and 0 signifies non-foil."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isFullArt",
+    "description": "This column stores a boolean value (0 or 1) indicating whether a card has full art."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isOversized",
+    "description": "This column stores a boolean value (0 or 1) indicating whether a card is oversized."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.hasNonFoil",
+    "description": "This column indicates whether a card has a non-foil version, represented as a boolean-like integer where 1 signifies \"yes\" and 0 signifies \"no\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isAlternative",
+    "description": "This column stores boolean values represented as integers (0 or 1) indicating whether a card is an alternative version."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isReprint",
+    "description": "This column stores a boolean value (represented as 0 or 1) indicating whether a card is a reprint."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isPromo",
+    "description": "This column indicates whether a card is a promotional card, represented as a boolean value with 0 for false and 1 for true."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isOnlineOnly",
+    "description": "The `isOnlineOnly` column is an integer flag (0 or 1) indicating whether a card is exclusively available online."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isReserved",
+    "description": "This column stores a boolean value as an integer, with 0 representing false and 1 representing true, indicating whether a card is reserved."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isTextless",
+    "description": "This column stores boolean values (0 or 1) indicating whether a card has text."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isStarter",
+    "description": "This column indicates whether a card is a starter card, represented as a boolean value using 0 for false and 1 for true."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isTimeshifted",
+    "description": "This column indicates whether a card is timeshifted, represented as a boolean value where 0 is false and 1 is true."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.isStorySpotlight",
+    "description": "The `isStorySpotlight` column is an integer flag indicating whether a card is featured in a story spotlight, with values of 0 (false) or 1 (true)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.asciiName",
+    "description": "The `asciiName` column stores the ASCII version of a card name, but is mostly NULL and contains a limited set of distinct values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.leadershipSkills",
+    "description": "The `leadershipSkills` column stores a JSON object representing boolean values for different leadership skills (brawl, commander, oathbreaker) associated with a card, but is often missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mcmId",
+    "description": "The `mcmId` column stores textual identifiers, likely representing a card's unique ID on MCM, with some missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.layout",
+    "description": "This column stores the layout type of a card, such as \"normal\", \"transform\", or \"split\", representing its visual arrangement and functionality."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.life",
+    "description": "The `life` column in the `cards` table stores numerical life values, ranging from -5 to 9, as text, but is mostly NULL."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.keywords",
+    "description": "The `keywords` column stores a comma-separated list of keywords or abilities associated with a card, such as \"Flying\", \"Trample\", or \"Haste\", and may be NULL if the card has no keywords."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.manaCost",
+    "description": "The `manaCost` column stores the mana cost of a card as a text string, using curly braces to denote mana symbols (e.g., `{1}{W}`)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mcmMetaId",
+    "description": "The `mcmMetaId` column stores Media Condition Market (MCM) meta identifiers as text, with some missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mtgjsonV4Id",
+    "description": "The `mtgjsonV4Id` column stores a unique identifier for each card, formatted as a UUID."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mtgArenaId",
+    "description": "The `mtgArenaId` column stores the Magic: The Gathering Arena ID, represented as text, for a card, but is often missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.loyalty",
+    "description": "The `loyalty` column stores loyalty program levels or tiers, represented as text, with mostly missing values and a small number of distinct levels including numeric values and special characters like '*' and 'X'."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mtgoFoilId",
+    "description": "The `mtgoFoilId` column stores the Magic Online (MTGO) foil card identifier as text, with a significant number of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.number",
+    "description": "The `number` column in the `cards` table stores alphanumeric identifiers or codes as text strings."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.name",
+    "description": "The `name` column stores the name of a card as a text string, with a variety of names ranging from simple terms to short phrases."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.multiverseId",
+    "description": "The `multiverseId` column stores the unique identifier for a Magic: The Gathering card in the Multiverse database as text, with some missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.otherFaceIds",
+    "description": "The `otherFaceIds` column stores a list of UUIDs associated with other faces of the card, but is mostly empty."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.originalReleaseDate",
+    "description": "The `originalReleaseDate` column stores the original release date of a card as text in YYYY/MM/DD format, but is often missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.mtgoId",
+    "description": "The `mtgoId` column stores the Magic: The Gathering Online (MTGO) identification number for a card, represented as text, and may be missing for some cards."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.originalText",
+    "description": "The `originalText` column stores the original, unformatted text of a card, which can include rules text, flavor text, or other descriptive information."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.printings",
+    "description": "The `printings` column stores a comma-separated list of set codes representing the printings of a card, such as \"10E,2ED,2XM\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.originalType",
+    "description": "The `originalType` column stores the original card type(s) as a text string, such as \"Instant\", \"Sorcery\", or \"Creature — Human Wizard\", with some values being NULL."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.power",
+    "description": "The `power` column in the `cards` table stores the power level of a card as text, with values ranging from \"*\" to \"∞\" and a significant number of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.promoTypes",
+    "description": "The `promoTypes` column stores comma-separated text values indicating the type of promotion associated with a card, such as \"prerelease\" or \"fnm\", with a high percentage of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.purchaseUrls",
+    "description": "The `purchaseUrls` column stores a JSON object containing URLs for purchasing a card from various online vendors like TCGplayer and Card Kingdom."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.scryfallId",
+    "description": "This column stores the unique Scryfall ID (a UUID) for each card."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.rarity",
+    "description": "The `rarity` column stores the rarity level of a card as text, with typical values including \"common\", \"rare\", \"uncommon\", and \"mythic\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.scryfallIllustrationId",
+    "description": "The `scryfallIllustrationId` column stores the unique Scryfall identifier (UUID) associated with the illustration of a card."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.scryfallOracleId",
+    "description": "The `scryfallOracleId` column stores the unique Scryfall Oracle ID, a UUID, for each card."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.setCode",
+    "description": "The `setCode` column stores the set code of a card, represented as a short text string, such as \"MB1\" or \"ZNR\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.subtypes",
+    "description": "The `subtypes` column stores the subtypes of a card as free-form text, with some values missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.side",
+    "description": "The `side` column stores a single-character code (a-e) representing a side, but is mostly NULL."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.tcgplayerProductId",
+    "description": "The `tcgplayerProductId` column stores the TCGplayer product ID as text, with some missing values and a wide range of integer-like identifiers."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.uuid",
+    "description": "The `uuid` column stores a unique identifier for each card in UUID format."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.supertypes",
+    "description": "The `supertypes` column stores the supertype of a card, such as \"Legendary\" or \"Basic\", as text, with a significant number of entries being null."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.types",
+    "description": "This column stores the type of card, such as Creature, Instant, or Land, as a text string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.type",
+    "description": "The `type` column stores the type of a card, such as \"Instant\", \"Sorcery\", or \"Land\", as a text string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.toughness",
+    "description": "The `toughness` column in the `cards` table stores the toughness of a card as text, which is often a number but can also include special characters like '*' or '?', and is missing in over half the rows."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.id",
+    "description": "This column stores a unique integer identifier for each record in the table."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.text",
+    "description": "The `text` column stores the rules text or abilities of a card, often including mana costs, keywords, and activation costs, formatted as a string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.variations",
+    "description": "The `variations` column stores UUID (Universally Unique Identifier) strings, with a significant portion of the entries being NULL."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.language",
+    "description": "The `language` column stores the language of the foreign data as text, with values like Japanese, French, and Spanish."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "cards.watermark",
+    "description": "The `watermark` column stores the watermark or logo associated with a card, such as a guild, faction, or set, as text, but is often missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.flavorText",
+    "description": "The `flavorText` column stores descriptive text or lore snippets in various languages, with unique values for approximately half the rows."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.multiverseid",
+    "description": "The `multiverseid` column stores a unique integer identifier, potentially missing in some rows, with values ranging from 73246 to 507640."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.name",
+    "description": "The `name` column stores textual names, potentially in various languages, with a high degree of uniqueness."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.text",
+    "description": "The column stores text descriptions in various languages, with a wide range of unique values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.uuid",
+    "description": "The column stores universally unique identifiers (UUIDs) in a standard hexadecimal format with hyphens."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "legalities.id",
+    "description": "This column stores a unique integer identifier for each record in the table."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "foreign_data.type",
+    "description": "The column `type` stores the type of a foreign data entry as text, such as \"Spontanzauber\" or \"Hexerei\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "legalities.format",
+    "description": "This column stores the format of a card in the game, such as vintage, legacy, or commander, and is represented as text."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "legalities.uuid",
+    "description": "This column stores a universally unique identifier (UUID) in a text format."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.id",
+    "description": "This column stores a unique integer identifier for each set, ranging from 1 to 551."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "legalities.status",
+    "description": "The `status` column stores the legality status of something, with values such as \"Legal\", \"Banned\", or \"Restricted\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.baseSetSize",
+    "description": "The `baseSetSize` column stores the total number of cards in a set as an integer, ranging from 0 to 1694."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.block",
+    "description": "The `block` column stores the name of the block a Magic: The Gathering set belongs to, as a text string, and may be null if the set does not belong to a block."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.isFoilOnly",
+    "description": "This column indicates whether a set contains only foil cards, represented as a boolean value (0 for false, 1 for true)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.booster",
+    "description": "The `booster` column stores JSON objects that define the contents and probabilities of different booster pack configurations for a set, but is NULL for 75% of rows."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.code",
+    "description": "The `code` column stores a unique text-based identifier for each set, typically consisting of a short alphanumeric string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.isNonFoilOnly",
+    "description": "This column indicates whether a set contains only non-foil cards, represented as a boolean value (0 for false, 1 for true)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.isForeignOnly",
+    "description": "This column indicates whether a set is exclusively composed of foreign cards, represented as a boolean value (0 for false, 1 for true)."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.isPartialPreview",
+    "description": "This column indicates whether a set is a partial preview, represented as a boolean integer where 0 is false and 1 is true."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.isOnlineOnly",
+    "description": "This column indicates whether a set is available only online, represented as a boolean value with 0 for false and 1 for true."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.mcmName",
+    "description": "The `mcmName` column stores the name of a Magic: The Gathering set as a text string, with a significant number of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.name",
+    "description": "The `name` column stores the unique name of a set as a text string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.keyruneCode",
+    "description": "The `keyruneCode` column stores alphanumeric codes, such as \"PMEI\" or \"ZNR\", representing sets, with no missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.mcmId",
+    "description": "The `mcmId` column stores integer identifiers, potentially related to a Magic: The Gathering set, with a significant number of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.releaseDate",
+    "description": "The `releaseDate` column stores the date a set was released, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.mtgoCode",
+    "description": "The `mtgoCode` column stores the Magic: The Gathering Online (MTGO) set code, a short text identifier, but is missing for a large percentage of sets."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.parentCode",
+    "description": "The `parentCode` column stores the alphanumeric code of a parent set, with a significant number of missing values."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.type",
+    "description": "This column stores the type of set, such as \"promo\", \"expansion\", or \"core\", as a text string."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "set_translations.id",
+    "description": "The `id` column is a unique integer identifier for each translation set, ranging from 1 to 1210."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.totalSetSize",
+    "description": "The `totalSetSize` column stores the total size of a set as an integer, ranging from 0 to 1694."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.mcmIdExtras",
+    "description": "The `mcmIdExtras` column stores integer identifiers, with a high percentage of missing values, potentially representing supplemental IDs related to a main record."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "set_translations.language",
+    "description": "The `language` column stores the language of a translated text, represented as a text string such as \"Spanish\" or \"Chinese Simplified\"."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "sets.tcgplayerGroupId",
+    "description": "The `tcgplayerGroupId` column stores integer identifiers, potentially missing for over half the rows, that likely correspond to TCGplayer product groups, with values ranging from 1 to 2778."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "set_translations.setCode",
+    "description": "The `setCode` column stores the set code as a text string, typically 2-3 characters long, representing a Magic: The Gathering set."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "rulings.date",
+    "description": "The `date` column stores the date of a ruling in YYYY-MM-DD format."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "set_translations.translation",
+    "description": "The `translation` column stores the translated name of a Magic: The Gathering set as free-form text, with some values missing."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "rulings.uuid",
+    "description": "The `uuid` column stores universally unique identifiers (UUIDs) as text strings, following a standard hexadecimal format with hyphens."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "rulings.id",
+    "description": "The `id` column stores a unique integer identifier for each ruling, ranging from 1 to 87769."
+  },
+  {
+    "db_id": "card_games",
+    "full_name": "rulings.text",
+    "description": "The `text` column stores the comprehensive rulings text associated with a card or mechanic, providing detailed explanations and clarifications."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "badges.Id",
+    "description": "This column stores a unique integer identifier for each badge, ranging from 1 to 92240."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "badges.Date",
+    "description": "The `Date` column stores the date and time when a badge was awarded, formatted as a datetime value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "badges.Name",
+    "description": "The `Name` column stores the name of a badge as text, with values like \"Student\", \"Supporter\", and \"Editor\"."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "badges.UserId",
+    "description": "This column stores the integer ID of a user, with values ranging from 2 to 55746 and no missing data."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.Text",
+    "description": "This column stores the full text of user comments, which can vary in length and content."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.Score",
+    "description": "This column stores the numerical score or rating assigned to a comment, ranging from 0 to 90."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.PostId",
+    "description": "PostId is an integer that uniquely identifies the post to which the comment belongs."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.Id",
+    "description": "Id is a unique integer identifier for each comment, ranging from 1 to 221292."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.UserId",
+    "description": "UserId stores the integer ID of the user who created the comment, with a relatively small number of comments having a missing user ID."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.CreationDate",
+    "description": "The `CreationDate` column stores the date and time when a comment was created, formatted as a datetime value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.Id",
+    "description": "The `Id` column is a unique integer identifier for each post history event."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.PostHistoryTypeId",
+    "description": "PostHistoryTypeId stores an integer code representing the type of history event associated with a post, ranging from 1 to 38."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.CreationDate",
+    "description": "The `CreationDate` column stores the date and time when a post history event occurred, formatted as a datetime value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.PostId",
+    "description": "This column stores the unique integer identifier for a post, ranging from 1 to 115378."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.RevisionGUID",
+    "description": "The `RevisionGUID` column stores unique identifiers for post revisions, formatted as a standard 128-bit UUID."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "comments.UserDisplayName",
+    "description": "The `UserDisplayName` column stores the display name of a user as text, but is mostly empty and contains a limited set of distinct values, often resembling generic usernames."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.Comment",
+    "description": "This column stores textual comments describing edits made to a post, such as \"edited title\" or \"added 2 characters in body.\""
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.UserDisplayName",
+    "description": "The `UserDisplayName` column stores the display name of a user, typically a string of alphanumeric characters."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.UserId",
+    "description": "UserId stores the integer ID of a user associated with a post history event, with some entries being null and -1 possibly indicating a system or deleted user."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postLinks.Id",
+    "description": "This column stores a unique integer identifier for each post link."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postLinks.CreationDate",
+    "description": "CreationDate stores the date and time when the post link was created, formatted as a DATETIME value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postLinks.LinkTypeId",
+    "description": "This column stores the type of link between two posts as an integer, with values typically being 1 or 3."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postLinks.RelatedPostId",
+    "description": "RelatedPostId is an integer that stores the ID of a related post, with values ranging from 1 to 115163."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postLinks.PostId",
+    "description": "PostId stores the integer identifier of a post involved in a link relationship, with values ranging from 4 to 115360."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.Id",
+    "description": "This column stores a unique integer identifier for each post, ranging from 1 to 115378."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.CreaionDate",
+    "description": "CreationDate stores the date and time when a post was created, formatted as a DATETIME value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.Score",
+    "description": "Score stores an integer value representing the rating or points assigned to a post, ranging from -19 to 192."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.PostTypeId",
+    "description": "This column stores the type of post, represented as an integer code, ranging from 1 to 7."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.AcceptedAnswerId",
+    "description": "AcceptedAnswerId stores the integer ID of the accepted answer for a post, with a significant number of posts having no accepted answer (NULL)."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.ViewCount",
+    "description": "The `ViewCount` column stores the number of views for a post as an integer, with some posts having no recorded view count (NULL)."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.LasActivityDate",
+    "description": "LasActivityDate stores the date and time of the last activity for a post, formatted as a DATETIME value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.OwnerUserId",
+    "description": "OwnerUserId stores integer-based user identifiers, with a small percentage of missing values and a range from -1 to 55746."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "postHistory.Text",
+    "description": "The `Text` column stores free-form text, potentially containing code snippets, user mentions, or other textual data related to post history."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.Body",
+    "description": "This column stores the main content of a post, typically containing paragraphs of text, HTML formatting, and potentially embedded code snippets or mathematical formulas."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.Title",
+    "description": "The `Title` column in the `posts` table stores the title of a post as free-form text, with a significant number of missing values and a wide variety of content and length."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.Tags",
+    "description": "The `Tags` column in the `posts` table stores a comma-separated list of tags associated with a post, with a significant number of posts having no tags."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.AnswerCount",
+    "description": "AnswerCount stores the integer number of answers associated with a post, and is null if the post is not a question."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.LastEditorUserId",
+    "description": "LastEditorUserId stores the integer ID of the last user to edit a post, with NULL values indicating no edits or an unknown editor."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.LastEditDate",
+    "description": "LastEditDate stores the date and time of the last edit made to a post, in DATETIME format, and may be NULL if the post has not been edited."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.CommentCount",
+    "description": "CommentCount stores the number of comments associated with a post as an integer, typically ranging from 0 to 45."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.FavoriteCount",
+    "description": "The `FavoriteCount` column stores the number of times a post was favorited as an integer, with a significant number of posts having no favorites recorded (NULL)."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.CommunityOwnedDate",
+    "description": "The `CommunityOwnedDate` column stores the date and time a post became community-owned, formatted as a DATETIME value, but is predominantly NULL."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.ParentId",
+    "description": "ParentId is an integer referencing the ID of a parent post, and may be null if the post has no parent."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.ClosedDate",
+    "description": "ClosedDate stores the datetime a post was closed, if applicable, otherwise it is null."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "tags.Id",
+    "description": "The `Id` column stores a unique integer identifier for each tag, ranging from 1 to 1869."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.OwnerDisplayName",
+    "description": "The `OwnerDisplayName` column stores the display name of the post owner as free-form text, but is mostly NULL and contains a variety of formats including usernames and potentially other identifiers."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "tags.Count",
+    "description": "The `Count` column in the `tags` table stores the integer count associated with each tag, ranging from 1 to 7244."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "tags.TagName",
+    "description": "The `TagName` column stores unique text-based tags associated with records in the table."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.Id",
+    "description": "Id is an integer column that serves as a unique identifier for each user."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "posts.LastEditorDisplayName",
+    "description": "The `LastEditorDisplayName` column stores the display name of the last editor, as a text string, with a high percentage of missing values."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "tags.ExcerptPostId",
+    "description": "ExcerptPostId is an integer that references a post ID, with some values being null."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "tags.WikiPostId",
+    "description": "WikiPostId is an integer that references a specific wiki post, with some entries being null."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.CreationDate",
+    "description": "CreationDate stores the date and time when a user account was created, formatted as a datetime value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.LastAccessDate",
+    "description": "LastAccessDate stores the date and time a user last accessed the system, formatted as a datetime value."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.DisplayName",
+    "description": "The `DisplayName` column in the `users` table stores the user's chosen display name as text, with a high degree of uniqueness."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.Reputation",
+    "description": "Reputation stores an integer value representing a user's reputation score, ranging from 1 to 87393."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.AboutMe",
+    "description": "The `AboutMe` column in the `users` table stores free-text descriptions about users, often containing HTML formatting, and is frequently missing."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.UpVotes",
+    "description": "UpVotes stores the number of upvotes a user has received, represented as a non-negative integer."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.WebsiteUrl",
+    "description": "The `WebsiteUrl` column in the `users` table stores user-provided website URLs as text strings, with a high percentage of missing values and inconsistent formatting including \"none\", \"N/A\", and variations thereof."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.Location",
+    "description": "The `Location` column in the `users` table stores free-text location information provided by users, such as city, region, or country, and may frequently be missing."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.Views",
+    "description": "The `Views` column in the `users` table stores the number of times a user's profile has been viewed, represented as a non-negative integer."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.DownVotes",
+    "description": "The `DownVotes` column stores the number of downvotes a user has received, represented as a non-negative integer."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.AccountId",
+    "description": "AccountId stores a unique integer identifier for each user account."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.Id",
+    "description": "Id is a unique integer identifier for each vote, ranging from 1 to 43538."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.ProfileImageUrl",
+    "description": "The `ProfileImageUrl` column stores URLs pointing to user profile images, often from services like Gravatar or Google, and is NULL for a significant portion of users."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "users.Age",
+    "description": "The `Age` column stores the age of a user as an integer, ranging from 13 to 94, but is frequently missing."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.VoteTypeId",
+    "description": "VoteTypeId is an integer representing the type of vote, with values ranging from 1 to 16."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.UserId",
+    "description": "UserId is an integer that likely represents the ID of a user who cast a vote, but is frequently missing (NULL)."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.PostId",
+    "description": "This column stores the integer ID of a post that has received a vote, with values ranging from 1 to 16921."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.CreationDate",
+    "description": "CreationDate stores the date when a vote was created, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "codebase_community",
+    "full_name": "votes.BountyAmount",
+    "description": "BountyAmount stores the bounty amount associated with a vote, represented as an integer, and is frequently NULL, with typical non-null values ranging from 0 to 200."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "customers.CustomerID",
+    "description": "CustomerID stores a unique integer identifier for each customer in the table."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "gasstations.GasStationID",
+    "description": "GasStationID is an integer column that stores a unique identifier for each gas station."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "customers.Segment",
+    "description": "The `Segment` column in the `customers` table stores the customer segment, represented as a text code such as \"SME\", \"LAM\", or \"KAM\"."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "gasstations.ChainID",
+    "description": "ChainID is an integer representing the identifier of the gas station chain, ranging from 1 to 290."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "customers.Currency",
+    "description": "This column stores the currency used by the customer, represented as a three-letter currency code (e.g., CZK, EUR)."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "gasstations.Segment",
+    "description": "The `Segment` column in the `gasstations` table stores the gas station segment as text, with values like \"Discount\", \"Premium\", and \"Value for money\"."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "gasstations.Country",
+    "description": "This column stores the country of the gas station, represented by a three-letter country code (CZE or SVK)."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "products.ProductID",
+    "description": "ProductID stores a unique integer identifier for each product in the table."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.CustomerID",
+    "description": "CustomerID stores a unique integer identifier for each customer involved in a transaction."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.TransactionID",
+    "description": "TransactionID stores a unique integer identifier for each transaction, ranging from 1 to 1000."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "products.Description",
+    "description": "The `Description` column in the `products` table stores textual descriptions of product items, with a wide variety of values and no missing data."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.GasStationID",
+    "description": "GasStationID stores the unique numerical identifier for gas stations, represented as integers."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.Time",
+    "description": "The `Time` column stores the time of day for each transaction as text in HH:MM:SS format."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.Date",
+    "description": "The `Date` column stores the date of the transaction, formatted as YYYY-MM-DD, within a short range in August 2012."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.CardID",
+    "description": "CardID stores unique integer identifiers for credit cards, with values ranging from 26228 to 775970."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.Amount",
+    "description": "Amount stores the integer value of a transaction, ranging from 0 to 264."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.ProductID",
+    "description": "ProductID is an integer that uniquely identifies the product involved in the transaction, ranging from 2 to 352."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "transactions_1k.Price",
+    "description": "The `Price` column stores the transaction price as a real number, ranging from 1.76 to 5762.49."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "yearmonth.Date",
+    "description": "The `Date` column stores a date as a text string in YYYYMM format."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "yearmonth.CustomerID",
+    "description": "CustomerID is an integer that uniquely identifies each customer, with values ranging from 5 to 52353."
+  },
+  {
+    "db_id": "debit_card_specializing",
+    "full_name": "yearmonth.Consumption",
+    "description": "The `Consumption` column stores real-valued consumption amounts, which can be negative, with values ranging from -582092.86 to 2052187.11."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.id",
+    "description": "The `id` column is a unique integer identifier for each player attribute record in the table."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.player_fifa_api_id",
+    "description": "The `player_fifa_api_id` column stores a unique integer identifier assigned to each player within the FIFA API."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.player_api_id",
+    "description": "This column stores a unique integer identifier for each player."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.potential",
+    "description": "The `potential` column stores an integer value representing a player's potential skill level, ranging from 39 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.overall_rating",
+    "description": "The `overall_rating` column stores an integer representing a player's overall skill rating, ranging from 33 to 94."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.date",
+    "description": "The `date` column stores the date of the player attribute observation in `YYYY-MM-DD 00:00:00` format."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.preferred_foot",
+    "description": "The `preferred_foot` column stores the player's preferred foot, indicated as either \"left\" or \"right\", with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.attacking_work_rate",
+    "description": "The `attacking_work_rate` column stores a player's perceived attacking work rate, represented as text with values like \"high,\" \"medium,\" or \"low,\" but also contains some anomalous values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.defensive_work_rate",
+    "description": "The `defensive_work_rate` column stores the player's defensive work rate as a text string, with common values like \"high,\" \"medium,\" and \"low,\" but also includes unexpected numerical and placeholder values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.heading_accuracy",
+    "description": "This column stores an integer representing a player's heading accuracy, ranging from 1 to 98."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.volleys",
+    "description": "The `volleys` column stores an integer representing a player's volley skill, ranging from 1 to 93, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.finishing",
+    "description": "The `finishing` column stores an integer rating, ranging from 1 to 97, representing a player's ability to convert chances into goals, with a few missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.crossing",
+    "description": "The `crossing` column stores an integer value representing a player's crossing ability, ranging from 1 to 95, with higher values indicating better crossing skills."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.short_passing",
+    "description": "The `short_passing` column stores an integer rating, ranging from 3 to 97, representing a player's ability to perform short passes, with most values concentrated between 62 and 74."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.free_kick_accuracy",
+    "description": "This column stores an integer representing a player's free kick accuracy, ranging from 1 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.curve",
+    "description": "The `curve` column stores an integer rating, ranging from 2 to 94, representing a player's ability to curve the ball, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.dribbling",
+    "description": "The `dribbling` column stores an integer-based skill rating for a player's dribbling ability, ranging from 1 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.long_passing",
+    "description": "The `long_passing` column stores an integer rating, ranging from 3 to 97, representing a player's ability to perform long passes, with most values falling between 58 and 68."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.ball_control",
+    "description": "This column stores an integer representing a player's ball control skill, ranging from 5 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.acceleration",
+    "description": "The `acceleration` column stores an integer representing a player's acceleration attribute, ranging from 10 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.agility",
+    "description": "The `agility` column stores an integer representing a player's agility rating, ranging from 11 to 96, with a few missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.sprint_speed",
+    "description": "The `sprint_speed` column stores an integer value representing a player's sprint speed, ranging from 12 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.reactions",
+    "description": "The `reactions` column stores an integer-based player attribute score, ranging from 17 to 96, reflecting a player's responsiveness."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.balance",
+    "description": "The `balance` column stores an integer value representing a player's balance attribute, ranging from 12 to 96, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.shot_power",
+    "description": "The `shot_power` column stores an integer rating, ranging from 2 to 97, representing a player's ability to shoot powerfully, with most values falling between 65 and 75, and very few missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.stamina",
+    "description": "The `stamina` column stores an integer representing a player's stamina level, ranging from 10 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.long_shots",
+    "description": "The `long_shots` column stores integer values representing a player's ability to perform long shots, ranging from 1 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.aggression",
+    "description": "The `aggression` column stores an integer value representing a player's aggression level, ranging from 6 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.strength",
+    "description": "The `strength` column stores an integer value representing a player's strength attribute, ranging from 10 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.interceptions",
+    "description": "The `interceptions` column stores an integer representing the number of interceptions a player makes, typically ranging from 1 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.penalties",
+    "description": "The `penalties` column stores an integer representing a player's penalty-taking ability, typically ranging from 2 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.jumping",
+    "description": "The `jumping` column stores an integer rating of a player's jumping ability, ranging from 14 to 96, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.vision",
+    "description": "The `vision` column stores an integer representing a player's vision attribute, ranging from 1 to 97, with a few missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.positioning",
+    "description": "The `positioning` column stores an integer rating, ranging from 2 to 96, representing a player's ability to position themselves on the field, with a negligible amount of missing data."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.marking",
+    "description": "The `marking` column stores an integer value representing a player's marking ability, ranging from 1 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.standing_tackle",
+    "description": "The `standing_tackle` column stores an integer value representing a player's standing tackle skill, ranging from 1 to 95."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.sliding_tackle",
+    "description": "The `sliding_tackle` column stores an integer representing a player's sliding tackle skill, ranging from 2 to 95."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.gk_positioning",
+    "description": "This column stores an integer value representing a player's goalkeeper positioning skill, ranging from 1 to 96, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.gk_diving",
+    "description": "The `gk_diving` column stores an integer representing a goalkeeper's diving ability, ranging from 1 to 94."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.gk_handling",
+    "description": "The `gk_handling` column stores an integer rating, ranging from 1 to 93, representing a player's ability to handle the ball as a goalkeeper."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.gk_reflexes",
+    "description": "The `gk_reflexes` column stores an integer value representing a goalkeeper's reflexes, ranging from 1 to 96."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.player_api_id",
+    "description": "The `player_api_id` column stores a unique integer identifier for each player in the database."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.player_name",
+    "description": "The `player_name` column stores the full name of a player as a text string."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player_Attributes.gk_kicking",
+    "description": "The `gk_kicking` column stores an integer value representing a goalkeeper's kicking ability, ranging from 1 to 97."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.id",
+    "description": "The `id` column stores a unique integer identifier for each player, ranging from 1 to 11075."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.player_fifa_api_id",
+    "description": "The `player_fifa_api_id` column stores a unique integer identifier for each player in the FIFA database."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "League.id",
+    "description": "The `id` column stores a unique integer identifier for each league."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.height",
+    "description": "The `height` column stores the height of a player in centimeters, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.weight",
+    "description": "The `weight` column stores the weight of a player in integer format, ranging from 117 to 243."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "League.country_id",
+    "description": "This column stores the unique integer identifier for a country, with values ranging from 1 to 24558."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "League.name",
+    "description": "The `name` column stores the name of a league as a text string, with each league having a unique name."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team.id",
+    "description": "The `id` column stores a unique integer identifier for each team, ranging from 1 to 51606."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Player.birthday",
+    "description": "The `birthday` column stores the player's date of birth as a text string in the format YYYY-MM-DD HH:MM:SS."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Country.id",
+    "description": "The `id` column stores a unique integer identifier for each country."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team.team_api_id",
+    "description": "This column stores a unique integer identifier for each team in the table."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team.team_long_name",
+    "description": "The `team_long_name` column stores the full name of a team as a text string, with each name being mostly unique."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team.team_fifa_api_id",
+    "description": "The `team_fifa_api_id` column stores the unique FIFA API identifier for a team as an integer, with a small percentage of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team.team_short_name",
+    "description": "The `team_short_name` column stores the short name or abbreviation for a team, typically consisting of a few uppercase letters."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.team_fifa_api_id",
+    "description": "This column stores the unique FIFA API identifier for a team as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.team_api_id",
+    "description": "This column stores a unique integer identifier for each team, ranging from 1601 to 274581."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Country.name",
+    "description": "The `name` column stores the full name of a country as text."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.id",
+    "description": "This column is an integer-based unique identifier for each record in the table."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.date",
+    "description": "The `date` column stores the date of a team's attribute recording, formatted as YYYY-MM-DD 00:00:00."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlayDribblingClass",
+    "description": "This column stores the style of dribbling used in build-up play, categorized as \"Little\", \"Normal\", or \"Lots\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlayDribbling",
+    "description": "The `buildUpPlayDribbling` column stores an integer value representing a team's propensity to dribble during build-up play, with a significant number of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlaySpeed",
+    "description": "This column stores the team's build-up play speed as an integer value, ranging from 20 to 80."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlayPassing",
+    "description": "The `buildUpPlayPassing` column stores an integer value representing a team's passing style during build-up play, ranging from 20 to 80."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlayPassingClass",
+    "description": "This column stores the team's passing style during build-up play, categorized as \"Mixed\", \"Short\", or \"Long\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationPassingClass",
+    "description": "This column stores the team's passing style for chance creation, categorized as Normal, Risky, or Safe."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlaySpeedClass",
+    "description": "The `buildUpPlaySpeedClass` column stores the classification of a team's build-up play speed as text, with possible values like \"Balanced\", \"Fast\", or \"Slow\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationPassing",
+    "description": "The `chanceCreationPassing` column stores an integer value representing a team's passing quality in chance creation, ranging from 21 to 80."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.buildUpPlayPositioningClass",
+    "description": "The `buildUpPlayPositioningClass` column stores the team's build-up play positioning style, categorized as either \"Organised\" or \"Free Form\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationCrossingClass",
+    "description": "The `chanceCreationCrossingClass` column stores the team's crossing style for chance creation, categorized as \"Little\", \"Normal\", or \"Lots\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationShooting",
+    "description": "This column stores an integer value representing a team's shooting quality in chance creation, ranging from 22 to 80."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationCrossing",
+    "description": "The `chanceCreationCrossing` column stores an integer value representing a team's tendency to use crosses in chance creation, ranging from 20 to 80."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationShootingClass",
+    "description": "The `chanceCreationShootingClass` column stores the team's class for chance creation shooting, with possible values being \"Little\", \"Normal\", or \"Lots\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defencePressure",
+    "description": "The `defencePressure` column stores an integer value representing the pressure applied by a team's defense, ranging from 23 to 72."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defenceAggression",
+    "description": "The `defenceAggression` column stores an integer value representing the team's defensive aggression level, ranging from 24 to 72."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defencePressureClass",
+    "description": "This column stores the defensive pressure class of a team, categorized as \"Deep\", \"Medium\", or \"High\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.id",
+    "description": "This column stores a unique integer identifier for each match record."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defenceTeamWidth",
+    "description": "The `defenceTeamWidth` column stores an integer value representing the team's defensive width setting, ranging from 29 to 73."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defenceDefenderLineClass",
+    "description": "This column stores the defensive line class of a team, with values like \"Cover\" or \"Offside Trap\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defenceTeamWidthClass",
+    "description": "This column stores the team's defensive width strategy, categorized as \"Narrow\", \"Normal\", or \"Wide\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.chanceCreationPositioningClass",
+    "description": "The `chanceCreationPositioningClass` column stores the team's positioning style during chance creation, categorized as either \"Organised\" or \"Free Form\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.country_id",
+    "description": "The `country_id` column stores the integer identifier of a country associated with a match."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Team_Attributes.defenceAggressionClass",
+    "description": "This column stores the team's defensive aggression strategy as a text value, with possible values like \"Press\", \"Double\", and \"Contain\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.season",
+    "description": "The `season` column stores the season in which a match was played, formatted as \"YYYY/YYYY\"."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.league_id",
+    "description": "The `league_id` column stores the unique integer identifier for the league in which a match was played."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.match_api_id",
+    "description": "The `match_api_id` column stores a unique integer identifier for each match, likely assigned by an external API."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.date",
+    "description": "The `date` column stores the date of the match, formatted as a text string in the `YYYY-MM-DD 00:00:00` format."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_team_api_id",
+    "description": "This column stores the unique identifier of the away team for a match, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.stage",
+    "description": "The `stage` column stores the integer identifier representing the stage of a match, ranging from 1 to 38."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X2",
+    "description": "This column stores the X coordinate of the home player's starting position in a match, represented as an integer value typically ranging from 0 to 8, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_team_goal",
+    "description": "This column stores the number of goals scored by the home team in a match, represented as a non-negative integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X3",
+    "description": "This column stores the X coordinate (likely on a soccer field) of a home team player at a specific point in time, represented as an integer between 1 and 8, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_team_api_id",
+    "description": "This column stores the unique identifier for the home team in a match, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_team_goal",
+    "description": "This column stores the number of goals scored by the away team in a match, represented as a non-negative integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X1",
+    "description": "This column stores the X coordinate position of a home player on the field, represented as an integer with possible values 0, 1, or 2, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X6",
+    "description": "This column stores the X coordinate position of a home player on the field, represented as an integer from 1 to 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X4",
+    "description": "The `home_player_X4` column stores the X coordinate position of a home player on the field, represented as an integer value typically ranging from 2 to 8."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X5",
+    "description": "This column stores the X coordinate (1-9) of a home player's position on the field, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X7",
+    "description": "This column stores the X coordinate of the home player's position on the field at a specific moment in the match, represented as an integer between 1 and 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X9",
+    "description": "The `home_player_X9` column stores the X coordinate position of a home player on the field, represented as an integer value from 1 to 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X8",
+    "description": "The `home_player_X8` column stores the X coordinate position (ranging from 1 to 9) of a home player on the field, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X2",
+    "description": "This column stores the X coordinate of the away team's second player on the field, represented as an integer between 1 and 8, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X11",
+    "description": "This column stores the X coordinate (1-7) of the home player in the 11th position, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X4",
+    "description": "The `away_player_X4` column stores the X coordinate (1-8) of the away team's fourth player on the field, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X6",
+    "description": "The `away_player_X6` column stores the X coordinate position (1-9) of a player on the away team, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_X10",
+    "description": "The `home_player_X10` column stores the X coordinate (on a scale of 1-9) of a home player's starting position, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X3",
+    "description": "This column stores the X coordinate of a player on the away team, represented as an integer from 2 to 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X5",
+    "description": "The `away_player_X5` column stores the X coordinate position (1-9) of a player on the away team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X7",
+    "description": "The `away_player_X7` column stores the X coordinate (1-9) of the away team's 7th player on the field, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X9",
+    "description": "The `away_player_X9` column stores the X coordinate (1-9) of a player on the away team, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X1",
+    "description": "This column stores the X coordinate (likely on a field) of the first away team player at the start of a match, represented as an integer between 1 and 6, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X10",
+    "description": "The `away_player_X10` column stores the X coordinate (scaled by 10) of a player on the away team, represented as an integer between 1 and 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X8",
+    "description": "The `away_player_X8` column stores the X coordinate (ranging from 1 to 9) of a player on the away team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_X11",
+    "description": "away_player_X11 stores the X coordinate (3-8) of a soccer player's starting position on the field for the away team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y1",
+    "description": "This column stores the Y1 coordinate of the home player on the field, represented as an integer value typically ranging from 0 to 3, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y4",
+    "description": "This column stores an integer value representing the Y coordinate of the home player 4, with possible values of 3 or 5, and some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y3",
+    "description": "This column stores the Y coordinate of the home player's position in zone 3, represented as an integer, with possible values of 3 or 5."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y2",
+    "description": "This column stores an integer value, either 0 or 3, representing a binary category or flag related to the home player in a match, with approximately 7% of values missing."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y6",
+    "description": "The `home_player_Y6` column stores the Y-coordinate position of a home player, represented as an integer value typically ranging from 3 to 9."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y7",
+    "description": "The `home_player_Y7` column stores the integer-based zone location of the home player Y7, ranging from 3 to 9, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y5",
+    "description": "The `home_player_Y5` column stores the Y-coordinate position of the home team's player 5 on the field, represented as an integer value typically ranging from 3 to 8, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y2",
+    "description": "This column stores the Y-coordinate of the second away player, which is consistently 3, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y11",
+    "description": "This column stores the Y-coordinate of the home player 11 on the field, represented as an integer value between 1 and 11, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y1",
+    "description": "This column stores the Y coordinate (1 or 3) of the first away player in a match, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y8",
+    "description": "The `home_player_Y8` column stores an integer rating, ranging from 3 to 10, potentially representing a skill level or performance metric for a player on the home team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y10",
+    "description": "The `home_player_Y10` column stores the Y coordinate (on a pitch) of the home team's 10th player, represented as an integer between 3 and 11, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_Y9",
+    "description": "The `home_player_Y9` column stores the Y coordinate (likely on a soccer field) of a home team player, represented as an integer from 1 to 10, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y4",
+    "description": "The `away_player_Y4` column stores the Y coordinate of the fourth away player on the field, represented as an integer value typically ranging from 3 to 7."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y5",
+    "description": "The `away_player_Y5` column stores the Y coordinate (3-9) of the away team's 5th player on the field, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y7",
+    "description": "The `away_player_Y7` column stores the Y-coordinate position of the away team's 7th player, represented as an integer value typically ranging from 3 to 10."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y9",
+    "description": "The `away_player_Y9` column stores the Y-coordinate position of the away team's 9th player on the field, represented as an integer value typically ranging from 5 to 11."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y8",
+    "description": "The `away_player_Y8` column stores the Y-coordinate position of the away team's 8th player on the field, represented as an integer value typically ranging from 3 to 10."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y6",
+    "description": "The `away_player_Y6` column stores the Y-coordinate position of the away team's 6th player on the field, represented as an integer between 3 and 10, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_2",
+    "description": "The `home_player_2` column stores the unique identifier for the second player on the home team, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_3",
+    "description": "This column stores the unique identifier of the third player on the home team, represented as an integer, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_1",
+    "description": "The `home_player_1` column stores the unique integer identifier of the first home player in a match, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_4",
+    "description": "The `home_player_4` column stores the unique identifier of the fourth player for the home team in a match, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y10",
+    "description": "The `away_player_Y10` column stores the Y-coordinate position (integer between 6 and 11) of a player on the away team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_6",
+    "description": "The `home_player_6` column stores the integer identifier of the 6th player for the home team in a match, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_9",
+    "description": "The `home_player_9` column stores integer identifiers for the 9th player on the home team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_1",
+    "description": "The `away_player_1` column stores the unique identifier of the first away team player for a match, with some missing values represented as NULL."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_8",
+    "description": "The `home_player_8` column stores integer identifiers for the 8th player on the home team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y11",
+    "description": "The `away_player_Y11` column stores integer values representing the Y coordinate (likely on a field) for the away team's 11th player, with possible values ranging from 7 to 11 and some missing data."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_11",
+    "description": "The `home_player_11` column stores integer identifiers for the 11th player on the home team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_10",
+    "description": "The `home_player_10` column stores the integer identifier of the 10th player on the home team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_5",
+    "description": "The `home_player_5` column stores integer identifiers for the fifth player on the home team, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_3",
+    "description": "The `away_player_3` column stores integer identifiers for the third away team player in a match, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_5",
+    "description": "This column stores the unique identifier of the 5th away team player in a match, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_2",
+    "description": "The `away_player_2` column stores the unique identifier of the away team's second player, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_4",
+    "description": "This column stores the unique identifier of the fourth away team player participating in a match, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_6",
+    "description": "The `away_player_6` column stores the unique integer identifier for the away team's sixth player, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_8",
+    "description": "The `away_player_8` column stores the unique identifier for the away team's eighth player, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_10",
+    "description": "The `away_player_10` column stores the unique identifier for the away team's tenth player, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_7",
+    "description": "The `away_player_7` column stores the unique identifier for the seventh player on the away team, represented as an integer, with occasional missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_9",
+    "description": "The `away_player_9` column stores the unique identifier for the away team's ninth player, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_11",
+    "description": "This column stores the unique identifier of the 11th away team player in a match, represented as an integer."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.goal",
+    "description": "The `goal` column stores goal events and related details as XML data, with some values being null."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.shotoff",
+    "description": "The `shotoff` column stores XML data containing detailed information about shots that went off target during a match, with some values being null."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.card",
+    "description": "The `card` column stores XML data representing card-related events in a match, with details on the card type, player, team, and incident."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.shoton",
+    "description": "The `shoton` column stores XML data containing detailed information about shots taken during a match, including shot type, player, team, and timestamp, with a significant portion of the entries being null."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.away_player_Y3",
+    "description": "The `away_player_Y3` column stores the Y coordinate (either 3 or 7) of a player on the away team, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.corner",
+    "description": "The `corner` column stores XML data containing details about corner events in a match, including coordinates, player information, and event type, with a significant number of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.B365H",
+    "description": "The `B365H` column stores the betting odds from Bet365 for a home win in a match, represented as a real number with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.foulcommit",
+    "description": "The `foulcommit` column stores XML data containing detailed information about foul incidents during a match, including the players involved, time elapsed, and type of foul."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.B365A",
+    "description": "B365A stores the betting odds from Bet365 for an away win in a match, represented as a decimal number, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BWH",
+    "description": "BWH stores the betting odds from Bet&Win for a home win in a match, represented as a real number, and may be missing in some entries."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.B365D",
+    "description": "B365D stores the decimal odds offered by Bet365 for a draw result in a match, with values ranging from 1.4 to 17.0 and some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.possession",
+    "description": "The `possession` column stores XML data representing ball possession statistics for a match, including home and away percentages at different elapsed times."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BWA",
+    "description": "The `BWA` column stores a real number, potentially null, representing a score or measurement, with observed values ranging from 1.1 to 51.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.cross",
+    "description": "The `cross` column stores XML data containing information about crosses, corners, and throw-ins during a match, with some values being null."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.IWH",
+    "description": "IWH stores the closing odds for a home win from the betting provider Interwetten, represented as a decimal number, and may be missing in some entries."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.IWA",
+    "description": "The `IWA` column stores a real number, potentially null, representing an IWA value ranging from 1.1 to 25.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.IWD",
+    "description": "The `IWD` column stores a real number, potentially null, representing an identifier or weight, ranging from 1.5 to 11.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.PSD",
+    "description": "The `PSD` column stores floating-point values representing pre-set odds for a match, with a significant number of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.PSA",
+    "description": "The `PSA` column stores prostate-specific antigen measurements as decimal numbers, with a significant number of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.LBH",
+    "description": "LBH stores a real number, potentially missing, representing a value that ranges from 1.04 to 26.0, likely an odds ratio or a similar betting-related metric."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.LBD",
+    "description": "The `LBD` column stores a real number, potentially missing, representing a measurement or score ranging from 1.4 to 19.0, with a precision to the hundredths place."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.LBA",
+    "description": "The `LBA` column stores a real number, potentially null, ranging from 1.1 to 51.0, representing a measurement or score associated with a match."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.PSH",
+    "description": "The `PSH` column stores real-valued betting odds, potentially missing in over half the rows, ranging from 1.04 to 36.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.WHD",
+    "description": "The `WHD` column stores the closing odds for a home win from the William Hill betting provider as a real number, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.WHH",
+    "description": "WHH stores the odds offered by bookmakers for a home win in a match, represented as a real number, and may occasionally be missing."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.WHA",
+    "description": "WHA stores the home team's winning odds as a real number, with some missing values, ranging from 1.08 to 51.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.SJH",
+    "description": "The `SJH` column stores real-valued scores or ratings, potentially with missing values, ranging from 1.04 to 23.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.SJA",
+    "description": "SJA stores the odds offered by betting provider Smarkets for a home win in a match, represented as a real number, and may be missing for some matches."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.VCH",
+    "description": "The `VCH` column stores variable character height values as decimal numbers, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.SJD",
+    "description": "SJD stores a real number, potentially missing, ranging from 1.4 to 15.0, with a limited number of distinct values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.VCA",
+    "description": "The `VCA` column stores variable character attack values as real numbers, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.VCD",
+    "description": "The `VCD` column stores a real number representing a value, likely a ratio or index, with observed values ranging from 1.62 to 26.0, and some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.GBH",
+    "description": "The `GBH` column stores the game bookmaker's odds for a home win as a real number, with a significant number of missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.home_player_7",
+    "description": "The `home_player_7` column stores the unique identifier for the seventh player on the home team, represented as an integer, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.GBD",
+    "description": "The `GBD` column stores a real number, potentially missing, representing a floating-point value between 1.45 and 11.0, possibly indicating a game-related metric."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.GBA",
+    "description": "The `GBA` column stores Game Boy Advance emulation performance scores as a real number, with some missing values."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BSD",
+    "description": "The `BSD` column stores a real number, potentially null, representing a calculated value ranging from 1.33 to 13.0, possibly related to a ratio or index."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BSA",
+    "description": "The `BSA` column stores a real number, potentially null, representing a BSA (Body Surface Area) value, ranging from 1.12 to 34.0."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BSH",
+    "description": "BSH stores real number values, potentially missing, ranging from 1.04 to 17.0, likely representing a betting market statistic."
+  },
+  {
+    "db_id": "european_football_2",
+    "full_name": "Match.BWD",
+    "description": "The `BWD` column stores real-valued betting odds, potentially null, ranging from 1.65 to 19.5."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "account.account_id",
+    "description": "The `account_id` column stores a unique integer identifier for each account, ranging from 1 to 11382."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "account.district_id",
+    "description": "The `district_id` column stores the integer identifier of a district, ranging from 1 to 77, with each account associated with one specific district."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "account.date",
+    "description": "The `date` column stores the date an account was created or modified, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "card.card_id",
+    "description": "The `card_id` column stores a unique integer identifier for each card, ranging from 1 to 1247."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "account.frequency",
+    "description": "The `frequency` column stores the frequency of payments, such as \"POPLATEK MESICNE\" (monthly), \"POPLATEK TYDNE\" (weekly), or \"POPLATEK PO OBRATU\"."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "card.disp_id",
+    "description": "disp_id is an integer column that stores a unique identifier for each card record."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "client.birth_date",
+    "description": "The `birth_date` column stores the client's date of birth in YYYY-MM-DD format."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "client.gender",
+    "description": "The `gender` column stores the client's gender, represented as either \"F\" or \"M\"."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "card.type",
+    "description": "This column stores the card type, such as \"classic\", \"junior\", or \"gold\", for each card."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "client.client_id",
+    "description": "Client ID is a unique integer identifier for each client in the table, ranging from 1 to 13998."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "card.issued",
+    "description": "The `issued` column stores the date a card was issued, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "client.district_id",
+    "description": "This column stores the integer ID of the district to which a client belongs, ranging from 1 to 77."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "disp.type",
+    "description": "This column stores the type of account holder, such as \"OWNER\" or \"DISPONENT\", as text."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "disp.account_id",
+    "description": "The `account_id` column stores a unique integer identifier for each account, ranging from 1 to 11382."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "disp.client_id",
+    "description": "The `client_id` column stores a unique integer identifier for each client, ranging from 1 to 13998."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "disp.disp_id",
+    "description": "`disp_id` is an integer column that serves as a unique identifier for each record in the `disp` table."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A2",
+    "description": "This column stores the name of a district as a text string, with each row containing a unique district name."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.district_id",
+    "description": "The `district_id` column stores a unique integer identifier for each district."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A4",
+    "description": "This column stores a unique identifier for each district, represented as a text string of numerical digits."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A3",
+    "description": "This column stores the name of a district in Bohemia, with values like \"Prague\", \"south Moravia\", or \"west Bohemia\"."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A7",
+    "description": "Column A7 stores a numeric code, ranging from 0 to 10, representing a district identifier."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A6",
+    "description": "Column `A6` stores integer values, possibly representing a numerical identifier or code, ranging from 0 to 8."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A5",
+    "description": "Column A5 stores numerical identifiers or codes, represented as text strings, ranging from 0 to 99."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A8",
+    "description": "Column A8 stores an integer code representing a category or classification, ranging from 0 to 5, with all rows containing a value."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A11",
+    "description": "Column `A11` stores a unique integer identifier for each district, ranging from 8110 to 12541."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A9",
+    "description": "Column `A9` stores an integer value between 1 and 11, likely representing a category or group identifier within the district."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A10",
+    "description": "Column A10 stores a real number, ranging from 33.9 to 100.0, likely representing a percentage or ratio with high precision."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A16",
+    "description": "The `A16` column stores a unique integer identifier for each district, with values ranging from 888 to 99107."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A12",
+    "description": "Column A12 stores real number measurements, likely representing a continuous variable, with values ranging from 0.2 to 7.3."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A14",
+    "description": "Column A14 stores integer values, ranging from 81 to 167, likely representing a numerical attribute or identifier associated with each district."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A15",
+    "description": "Column A15 stores integer values, likely representing a district-level measurement or identifier, with a small percentage of missing values and a wide range of values."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.date",
+    "description": "The `date` column stores the date of the loan, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.loan_id",
+    "description": "The `loan_id` column stores a unique integer identifier for each loan record in the table."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.account_id",
+    "description": "The `account_id` column stores a unique integer identifier for each account associated with the loan."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "district.A13",
+    "description": "Column A13 stores real number values, ranging from 0.43 to 9.4, likely representing a continuous numerical measurement or ratio associated with the district."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.payments",
+    "description": "The `payments` column stores the payment amount for a loan, represented as a real number."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.duration",
+    "description": "This column stores the duration of the loan in months as an integer value, typically ranging from 12 to 60."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.amount",
+    "description": "The `amount` column stores the loan amount as an integer, with values ranging from 4980 to 590820."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.account_id",
+    "description": "The `account_id` column stores the unique integer identifier of the account associated with the order."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "loan.status",
+    "description": "The `status` column stores the status of a loan, represented by a single uppercase letter code (A, B, C, or D)."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.trans_id",
+    "description": "`trans_id` is an integer column that stores a unique identifier for each transaction record."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.operation",
+    "description": "The `operation` column stores the type of transaction as text, such as \"VYBER\" (withdrawal) or \"PREVOD NA UCET\" (transfer to account), and may be null."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.amount",
+    "description": "The `amount` column stores the monetary amount of an order as a real number, with values ranging from 1.0 to 14882.0."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.account_id",
+    "description": "The `account_id` column stores the unique integer identifier for a customer account, ranging from 1 to 11382."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.bank_to",
+    "description": "The `bank_to` column stores the two-letter code of the destination bank for an order."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.k_symbol",
+    "description": "The `k_symbol` column in the `order` table stores a text code representing the purpose of the order, such as \"SIPO\" or \"LEASING\"."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.order_id",
+    "description": "`order_id` is an integer that uniquely identifies each order in the table."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.balance",
+    "description": "The `balance` column stores the integer balance amount, which can be negative or positive."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.type",
+    "description": "The `type` column stores the type of transaction, such as `VYDAJ`, `PRIJEM`, or `VYBER`, as text."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.amount",
+    "description": "The `amount` column stores the transaction amount as a non-null integer, typically ranging from 0 to 87400."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.date",
+    "description": "The `date` column stores transaction dates, formatted as YYYY-MM-DD, ranging from 1993-01-01 to 1998-12-31."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "order.account_to",
+    "description": "The `account_to` column stores the integer identifier of the recipient account for an order."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.bank",
+    "description": "The `bank` column stores the bank identifier associated with a transaction as a text code, with a significant number of missing values."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.account",
+    "description": "The `account` column stores integer-based account identifiers, potentially with missing values, ranging from 0 to 99994199."
+  },
+  {
+    "db_id": "financial",
+    "full_name": "trans.k_symbol",
+    "description": "The `k_symbol` column stores categorical codes, such as \"UROK\" or \"SLUZBY\", representing transaction types, and contains a significant number of missing values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.circuitId",
+    "description": "circuitId is an integer that serves as a unique identifier for each circuit."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.country",
+    "description": "This column stores the country in which a circuit is located, represented as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.lat",
+    "description": "The `lat` column stores the latitude of a circuit as a decimal number."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.location",
+    "description": "The `location` column in the `circuits` table stores the geographical location of a race circuit as a text string, with values like \"Spielburg\" and \"Zandvoort\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.name",
+    "description": "The `name` column in the `circuits` table stores the unique name of a race circuit as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructors.constructorId",
+    "description": "The `constructorId` column is the unique integer identifier for each constructor."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.circuitRef",
+    "description": "The `circuitRef` column stores the unique identifier or short code for a circuit, represented as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.url",
+    "description": "The `url` column stores the unique URL of a Wikipedia page for each circuit, formatted as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.alt",
+    "description": "The `alt` column stores integer values, but currently contains only NULL values across all rows in the `circuits` table, indicating it is either unpopulated or represents missing data."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructors.name",
+    "description": "This column stores the unique name of a constructor, represented as text."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructors.url",
+    "description": "The `url` column stores the URL of a Wikipedia page for each constructor, formatted as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructors.constructorRef",
+    "description": "The `constructorRef` column stores the unique constructor reference identifier as a text string, such as \"zakspeed\" or \"williams\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "circuits.lng",
+    "description": "The `lng` column stores the longitude as a floating-point number, with values ranging from -118.189 to 138.927."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructors.nationality",
+    "description": "This column stores the nationality of a constructor, represented as a text string (e.g., British, American, Italian)."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.driverId",
+    "description": "driverId is an integer column that serves as a unique identifier for each driver in the drivers table."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.code",
+    "description": "The `code` column stores short, textual codes, often three characters long, representing driver identifiers, but is frequently missing."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.forename",
+    "description": "The `forename` column stores the first name of a driver as text."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.driverRef",
+    "description": "The `driverRef` column stores a unique identifier or reference string for each driver, with values like \"zunino\" and \"wurz\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.dob",
+    "description": "The `dob` column stores the date of birth for each driver, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.number",
+    "description": "The `number` column in the `drivers` table stores an integer identifier, possibly representing a driver's racing number, but is frequently missing (NULL)."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.surname",
+    "description": "The `surname` column stores the last name of a driver as text, with a variety of names represented."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "seasons.year",
+    "description": "The `year` column stores the year of a season as a four-digit integer, ranging from 1950 to 2017."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.url",
+    "description": "The `url` column stores the unique URL, often a Wikipedia link, associated with each driver as a text string."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "seasons.url",
+    "description": "The `url` column stores the full URL of the Wikipedia page for each Formula One season."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.year",
+    "description": "The `year` column stores the year in which a race was held, represented as a four-digit integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "drivers.nationality",
+    "description": "The `nationality` column stores the nationality of a driver as a text string, with values like British, American, and Italian."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.raceId",
+    "description": "The `raceId` column is a unique integer identifier for each race, ranging from 1 to 988."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.round",
+    "description": "The `round` column stores the integer representing the round number of a race within a season, ranging from 1 to 21."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.circuitId",
+    "description": "circuitId is an integer that uniquely identifies the circuit where a race takes place, ranging from 1 to 73."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorResults.raceId",
+    "description": "raceId is an integer that uniquely identifies a race."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorResults.constructorId",
+    "description": "This column stores the unique identifier for a constructor, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.url",
+    "description": "The `url` column stores the unique URL, typically a Wikipedia link, associated with each race."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.name",
+    "description": "The `name` column in the `races` table stores the name of each race as text, such as \"Italian Grand Prix\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.time",
+    "description": "The `time` column stores the time of day for a race, formatted as HH:MM:SS, but is often missing."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "races.date",
+    "description": "The `date` column stores the date of a race, formatted as YYYY-MM-DD, with values ranging from 1950-05-13 to 2017-11-26, and each race having a unique date."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorResults.constructorResultsId",
+    "description": "This column is the unique numerical identifier for each constructor result record."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorResults.points",
+    "description": "The `points` column stores the points earned by a constructor in a race, represented as a real number."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.constructorId",
+    "description": "This column stores the unique identifier for a constructor, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.raceId",
+    "description": "This column stores the unique identifier for a race, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.constructorStandingsId",
+    "description": "`constructorStandingsId` is a unique integer identifier for each constructor's standings record."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.points",
+    "description": "This column stores the total points earned by a constructor in a race or season as a real number."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorResults.status",
+    "description": "The `status` column stores the status of a constructor's result, with almost all values being \"D\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.driverStandingsId",
+    "description": "driverStandingsId is a unique integer identifier for each driver's standings record."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.position",
+    "description": "The `position` column stores the finishing position of a constructor in a race, represented as an integer between 1 and 22."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.raceId",
+    "description": "This column stores the unique identifier of a race as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.positionText",
+    "description": "The `positionText` column stores the finishing position of a constructor in a race, represented as text, which can be numeric or a single letter."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.driverId",
+    "description": "The `driverId` column stores a unique integer identifier for each driver participating in a race."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.points",
+    "description": "The `points` column stores the number of points a driver has earned in a race or season, represented as a real number."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "constructorStandings.wins",
+    "description": "This column stores the number of wins a constructor achieved in a particular race or season, represented as a non-negative integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.wins",
+    "description": "The `wins` column stores the number of race wins for a driver in a specific season, represented as a non-negative integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.position",
+    "description": "The `position` column stores the finishing position of a driver in a race, represented as an integer value typically ranging from 1 to 108."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.lap",
+    "description": "This column stores the lap number as an integer, ranging from 1 to 78."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "driverStandings.positionText",
+    "description": "The `positionText` column stores the finishing position of a driver in a race, represented as text, which can include numeric and non-numeric values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.driverId",
+    "description": "The `driverId` column stores the unique identifier for the driver who set the lap time, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.raceId",
+    "description": "raceId is an integer that uniquely identifies a race, ranging from 1 to 982."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.driverId",
+    "description": "This column stores the unique identifier for the driver who made a pit stop, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.position",
+    "description": "The `position` column stores the finishing position of a driver in a race lap, represented as an integer between 1 and 24."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.stop",
+    "description": "This column stores the sequential number of the pit stop during a race, ranging from 1 to 6."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.time",
+    "description": "The `time` column stores lap times as text strings, typically formatted as minutes and seconds with milliseconds (e.g., \"1:23.794\")."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "lapTimes.milliseconds",
+    "description": "The `milliseconds` column stores lap times as integer values representing the duration in milliseconds."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.lap",
+    "description": "The `lap` column stores the integer number of the lap when a pit stop occurred, ranging from 1 to 74."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.raceId",
+    "description": "This column stores the unique identifier for each race, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.time",
+    "description": "The `time` column stores the time of day for a pit stop event, formatted as HH:MM:SS."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.raceId",
+    "description": "This column stores the unique identifier for each race, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.driverId",
+    "description": "This column stores the unique identifier for a driver, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.qualifyId",
+    "description": "This column stores a unique integer identifier for each qualifying result, ranging from 1 to 7419."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.duration",
+    "description": "The `duration` column in the `pitStops` table stores the duration of a pit stop as a text string representing a floating-point number, with values ranging from 12.897 to 59.555."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.number",
+    "description": "The `number` column stores integer values, ranging from 0 to 99, likely representing a numerical identifier or ranking within a qualifying event."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.constructorId",
+    "description": "The `constructorId` column stores the unique identifier for the constructor (racing team) that participated in a qualifying session, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "pitStops.milliseconds",
+    "description": "The `milliseconds` column stores the duration of a pit stop in milliseconds as an integer value."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.position",
+    "description": "This column stores the finishing position of a qualifier, represented as an integer between 1 and 28."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.resultId",
+    "description": "The `resultId` column stores a unique integer identifier for each result record, ranging from 1 to 23661."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.raceId",
+    "description": "raceId is an integer that uniquely identifies a race within the dataset."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "status.status",
+    "description": "The `status` column stores the status of a race participant as free-form text, with each row containing a unique status description."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "status.statusId",
+    "description": "The `statusId` column stores a unique integer identifier for each status record in the table."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.q2",
+    "description": "The `q2` column stores qualifying times, likely in minutes and seconds format (e.g., \"1:26.319\"), with a significant number of missing values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.q1",
+    "description": "The `q1` column stores the qualifying times for the first qualifying session, formatted as minutes and seconds with milliseconds (e.g., 1:20.888)."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.driverId",
+    "description": "This column stores the unique identifier for a driver as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "qualifying.q3",
+    "description": "The `q3` column stores qualifying times, in the format of minutes and seconds, for the third qualifying round, with a significant number of missing values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.grid",
+    "description": "The `grid` column stores an integer representing a grid identifier, ranging from 0 to 34."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.positionOrder",
+    "description": "This column stores the order or ranking of a result, represented as an integer between 1 and 39."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.constructorId",
+    "description": "This column stores the unique identifier for the constructor (racing team) associated with a race result, represented as an integer."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.number",
+    "description": "The `number` column stores non-null integer values, ranging from 0 to 208, likely representing a count or identifier."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.position",
+    "description": "The `position` column stores the ranking or placement of a result, represented as an integer between 1 and 33, but may be missing in approximately 44.5% of the rows."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.positionText",
+    "description": "The `positionText` column in the `results` table stores the finishing position, represented as either a rank number or a letter code, with values like \"R\", \"F\", \"4\", or \"3\"."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.milliseconds",
+    "description": "The `milliseconds` column stores integer values representing time durations in milliseconds, with a significant portion of the entries being null."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.points",
+    "description": "The `points` column stores a real number representing a score or value, ranging from 0.0 to 50.0."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.time",
+    "description": "The `time` column stores race times as text strings, often including fractional seconds, with a significant number of missing values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.laps",
+    "description": "The `laps` column stores the number of laps completed, represented as a non-null integer, ranging from 0 to 200."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.fastestLap",
+    "description": "The `fastestLap` column stores the fastest lap achieved, likely represented as an integer value, but is often missing."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.statusId",
+    "description": "The `statusId` column stores an integer representing the status of a result, with values ranging from 1 to 136."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.fastestLapTime",
+    "description": "The `fastestLapTime` column stores the fastest lap time achieved in a race, formatted as minutes and seconds with milliseconds, but is often missing."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.rank",
+    "description": "The `rank` column stores integer-based ranking values, ranging from 0 to 24, with a significant number of missing values."
+  },
+  {
+    "db_id": "formula_1",
+    "full_name": "results.fastestLapSpeed",
+    "description": "The `fastestLapSpeed` column in the `results` table stores the speed of the fastest lap, likely in kilometers per hour, as a text string with significant missing data."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.event_name",
+    "description": "The `event_name` column stores the name or title of an event as free-form text."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.event_id",
+    "description": "The `event_id` column stores a unique identifier for each event as a text string."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.event_date",
+    "description": "The `event_date` column stores the date and time of an event as a text string in the format YYYY-MM-DDTHH:MM:SS."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.type",
+    "description": "The column `type` stores the type of event, such as \"Meeting\", \"Social\", or \"Budget\", as text."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.notes",
+    "description": "The `notes` column stores textual descriptions or details related to events, with some missing values and a variety of text lengths."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.location",
+    "description": "The `location` column stores the textual location of an event, which may include street addresses, building names, or campus locations, and allows null values."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "event.status",
+    "description": "The `status` column stores the current state of an event, such as \"Closed\", \"Open\", or \"Planning\", as text."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "major.major_name",
+    "description": "This column stores the name of a major, with each of the 113 rows containing a unique textual value."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "major.department",
+    "description": "The `department` column stores the name of the department offering a major as a text string."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "major.college",
+    "description": "This column stores the name of the college offering a particular major as text."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "major.major_id",
+    "description": "The `major_id` column stores unique identifiers for academic majors, represented as text strings."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.county",
+    "description": "This column stores the name of the county associated with a zip code, typically formatted as a county name followed by the word \"County\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.type",
+    "description": "The `type` column stores the type of zip code, such as \"Standard\", \"PO Box\", or \"Unique\", using text values."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.zip_code",
+    "description": "The `zip_code` column stores the integer representation of a US zip code, with each zip code appearing only once in the table."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.state",
+    "description": "The `state` column stores the U.S. state or territory associated with a zip code, represented as a text string (e.g., \"California\")."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.city",
+    "description": "The column `city` stores the name of a city as a text string, with values like \"Washington\" and \"Zwolle\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "attendance.link_to_event",
+    "description": "The `link_to_event` column stores a text-based foreign key or identifier, likely linking to a record in another table, with values resembling \"rec...\" and no missing data."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.budget_id",
+    "description": "The `budget_id` column stores a unique identifier for each budget record, formatted as a text string."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "attendance.link_to_member",
+    "description": "This column stores a unique identifier or key, formatted as a text string, that links to a member record in another table."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.spent",
+    "description": "The `spent` column in the `budget` table stores the amount of money spent, represented as a real number, with values ranging from 0.0 to 327.07."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.amount",
+    "description": "The `amount` column stores the budget amount as a whole number, ranging from 10 to 350."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.event_status",
+    "description": "This column stores the status of a budget event, represented as text, with values like \"Open\", \"Closed\", or \"Planning\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.category",
+    "description": "This column stores the category of a budget item as text, such as \"Food\", \"Advertisement\", or \"Speaker Gifts\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.expense_id",
+    "description": "The `expense_id` column stores a unique identifier for each expense record, formatted as a text string."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "zip_code.short_state",
+    "description": "This column stores the two-letter abbreviation for the US state associated with a zip code, such as TX, CA, or NY."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.remaining",
+    "description": "The `remaining` column stores the remaining budget amount as a real number, which can be positive or negative."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "budget.link_to_event",
+    "description": "The `link_to_event` column stores a unique identifier or key, formatted as a text string, that links a budget entry to a specific event record."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.expense_date",
+    "description": "The `expense_date` column stores the date of the expense as text in YYYY-MM-DD format."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.expense_description",
+    "description": "The `expense_description` column stores textual descriptions of expenses, such as \"Pizza\" or \"Posters\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.cost",
+    "description": "The `cost` column stores the monetary cost of an expense as a real number, with values ranging from 6.0 to 295.12."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.link_to_budget",
+    "description": "The `link_to_budget` column stores a text-based foreign key referencing a budget record, formatted as a unique record identifier."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.income_id",
+    "description": "The `income_id` column stores unique, randomly generated text identifiers for each income record."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.approved",
+    "description": "The `approved` column stores a boolean value, represented as text, indicating approval status, and is almost always `true`."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.date_received",
+    "description": "The `date_received` column stores the date an income was received, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.first_name",
+    "description": "The `first_name` column stores the first name of a member as text, with each member having a unique first name."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "expense.link_to_member",
+    "description": "This column stores a foreign key reference as a text string, likely an ID, linking each expense record to a member record in another table."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.member_id",
+    "description": "The `member_id` column stores unique identifiers for members as text strings."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.link_to_member",
+    "description": "The `link_to_member` column stores unique alphanumeric identifiers, likely linking income records to member records in another table, with a small percentage of missing values."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.amount",
+    "description": "The `amount` column stores the income amount as an integer, ranging from 50 to 3000."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.email",
+    "description": "The `email` column stores the unique email address of each member, formatted as a text string."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.source",
+    "description": "The `source` column stores the source of income as text, such as \"Dues\", \"Sponsorship\", \"School Appropriation\", or \"Fundraising\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.last_name",
+    "description": "The `last_name` column stores the last name of a member as text, with each entry being unique."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.position",
+    "description": "The `position` column stores the member's role or title within the organization as text, such as \"Member\", \"President\", or \"Inactive\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "income.notes",
+    "description": "The `notes` column contains free-form text descriptions, often null, providing additional information about the income source, such as donation details or funding purpose."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.t_shirt_size",
+    "description": "The `t_shirt_size` column stores the member's t-shirt size as text, with typical values like \"Small\", \"Medium\", \"Large\", or \"X-Large\"."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.phone",
+    "description": "The `phone` column stores the member's phone number as text, formatted with area code in parentheses, a space, and the remaining digits separated by a hyphen (e.g., (651) 928-4507)."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.link_to_major",
+    "description": "The `link_to_major` column stores a text-based foreign key referencing a major, likely formatted as a record identifier."
+  },
+  {
+    "db_id": "student_club",
+    "full_name": "member.zip",
+    "description": "The `zip` column in the `member` table stores the integer-based ZIP code of a member, with values ranging from 1020 to 98290."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "alignment.id",
+    "description": "This column stores a unique integer identifier for each alignment record, ranging from 1 to 4."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "attribute.id",
+    "description": "This column stores a unique integer identifier for each attribute record."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "colour.id",
+    "description": "This column stores a unique integer identifier for each colour, ranging from 1 to 35."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "publisher.publisher_name",
+    "description": "The `publisher_name` column stores the name of a publisher as text, with each entry in the table representing a distinct publisher."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "gender.gender",
+    "description": "The column stores gender identity as text, with values like \"Male\" and \"Female\"."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "alignment.alignment",
+    "description": "The column `alignment` stores the character alignment, such as \"Good\", \"Bad\", or \"Neutral\", as free-form text."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "colour.colour",
+    "description": "The column `colour` stores free-form text descriptions of colours, with each entry being unique and non-null."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "publisher.id",
+    "description": "The `id` column is the primary integer key for the publisher table, uniquely identifying each publisher record."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "attribute.attribute_name",
+    "description": "The `attribute_name` column stores the name of an attribute as text, such as Strength, Speed, or Intelligence."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "gender.id",
+    "description": "This column stores a unique integer identifier for each gender, ranging from 1 to 3."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "race.id",
+    "description": "This column stores a unique integer identifier for each race, ranging from 1 to 61."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.id",
+    "description": "This column stores a unique integer identifier for each superhero, ranging from 1 to 756."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "race.race",
+    "description": "This column stores the name of a race or species as a text string, with each entry appearing to be unique."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.superhero_name",
+    "description": "This column stores the name of a superhero as text, with each name being mostly unique."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.gender_id",
+    "description": "This column stores the gender of a superhero as an integer, with values ranging from 1 to 3."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.full_name",
+    "description": "The `full_name` column stores the full name of a superhero as text, with some missing values and a variety of names represented."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.hair_colour_id",
+    "description": "This column stores the ID representing the superhero's hair color, referencing a separate lookup table, and is populated for all superheroes."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.eye_colour_id",
+    "description": "This column stores the ID representing the superhero's eye color, referencing a lookup table, and contains integer values ranging from 1 to 35."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.race_id",
+    "description": "The `race_id` column stores the integer identifier of a superhero's race, with values ranging from 1 to 61 and minimal null values."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "hero_attribute.hero_id",
+    "description": "The `hero_id` column stores a unique integer identifier for each hero, ranging from 1 to 756, with no missing values."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.publisher_id",
+    "description": "This column stores the ID of the publisher associated with a superhero, represented as an integer value between 1 and 25, with very few missing values."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.alignment_id",
+    "description": "This column stores the alignment ID of a superhero, represented as an integer, with values ranging from 1 to 3."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.skin_colour_id",
+    "description": "This column stores the ID representing the superhero's skin colour, referencing a lookup table, and is represented as an integer."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.weight_kg",
+    "description": "The `weight_kg` column stores the weight of a superhero in kilograms as an integer, with some missing values and a wide range of values including possible outliers."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superpower.power_name",
+    "description": "The `power_name` column stores the unique name of a superpower as text."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superhero.height_cm",
+    "description": "Height_cm stores the height of a superhero in centimeters as an integer, with some missing values and occasional outliers like 0 or 30480."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "hero_attribute.attribute_id",
+    "description": "This column stores the ID of an attribute, represented as an integer, with values ranging from 1 to 6."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "hero_attribute.attribute_value",
+    "description": "The `attribute_value` column stores integer values representing a hero's attribute level, ranging from 5 to 100."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "superpower.id",
+    "description": "The `id` column is an integer serving as a unique identifier for each superpower, ranging from 1 to 167."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "hero_power.power_id",
+    "description": "The `power_id` column stores a unique integer identifier for each power, ranging from 1 to 167."
+  },
+  {
+    "db_id": "superhero",
+    "full_name": "hero_power.hero_id",
+    "description": "This column stores the unique integer identifier for a hero, ranging from 1 to 756."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.ID",
+    "description": "The `ID` column in the `Examination` table stores unique integer identifiers for each examination record, with a small percentage of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.Examination Date",
+    "description": "Examination Date stores the date on which an examination was administered, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.aCL IgM",
+    "description": "The `aCL IgM` column stores anti-cardiolipin IgM antibody levels as a real number, with values ranging from 0.0 to 187122.0."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.aCL IgG",
+    "description": "aCL IgG stores anti-cardiolipin IgG antibody levels as a real number, with values ranging from 0.0 to 2150.3."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.ANA Pattern",
+    "description": "The `ANA Pattern` column stores text-based codes representing antinuclear antibody (ANA) patterns, with some missing values and a limited set of distinct pattern abbreviations."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.aCL IgA",
+    "description": "aCL IgA stores integer values representing aCL IgA measurements, with observed values ranging from 0 to 48547."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.Thrombosis",
+    "description": "This column stores the thrombosis level as an integer, ranging from 0 to 3."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.LAC",
+    "description": "The `LAC` column in the `Examination` table stores a binary indicator, represented as \"+\" or \"-\", with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.Symptoms",
+    "description": "The Symptoms column stores free-text descriptions of patient symptoms, with a high percentage of missing values and a wide range of textual entries."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.Diagnosis",
+    "description": "The `Diagnosis` column stores the diagnosis for an examination as free-form text, with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.ANA",
+    "description": "The `ANA` column stores integer values representing Antinuclear Antibody (ANA) test results, with possible values ranging from 0 to 4096, and a small percentage of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.KCT",
+    "description": "The `KCT` column stores a binary result, either \"+\" or \"-\", representing the outcome of a test or evaluation, but is often missing."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.ID",
+    "description": "The `ID` column stores a unique integer identifier for each patient record."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Examination.RVVT",
+    "description": "The `RVVT` column stores the result of a rapid venereal disease test, represented as either \"+\" for positive or \"-\" for negative, with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.Birthday",
+    "description": "Birthday stores the patient's date of birth in YYYY-MM-DD format, with a small percentage of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.SEX",
+    "description": "This column stores the patient's sex, represented as a text value, typically \"F\" or \"M\"."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.Admission",
+    "description": "The `Admission` column in the `Patient` table stores admission status, represented by symbols such as \"+\" or \"-\"."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.Date",
+    "description": "The `Date` column stores the date when a laboratory event occurred, formatted as YYYY-MM-DD."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.Diagnosis",
+    "description": "This column stores the patient's diagnosis as free-form text, with common abbreviations and possible suspicion flags."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.First Date",
+    "description": "First Date stores the patient's first recorded date, formatted as YYYY-MM-DD, with approximately 20% of records missing this value."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Patient.Description",
+    "description": "Description stores a date, with some missing values, representing a descriptive event or characteristic related to the patient, and typically falls between June 1991 and December 1998."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.TP",
+    "description": "TP stores total protein measurements as a real number, with values ranging from 0.0 to 9.9."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.ID",
+    "description": "The `ID` column stores a unique integer identifier for each laboratory record, ranging from 27654 to 5452747."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.GPT",
+    "description": "The `GPT` column stores integer values representing Glutamic Pyruvic Transaminase measurements, with some missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.GOT",
+    "description": "The `GOT` column stores integer values representing Glutamic-Oxaloacetic Transaminase (GOT) or Aspartate Aminotransferase (AST) levels, with some missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.LDH",
+    "description": "The LDH column stores integer values representing the Lactate Dehydrogenase (LDH) levels, with some missing values and a wide range between 25 and 67080."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.ALP",
+    "description": "ALP stores integer values representing Alkaline Phosphatase (ALP) levels, with some missing values and a range from 11 to 1308."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.ALB",
+    "description": "The ALB column stores a patient's albumin level as a real number, with values typically ranging from 1.0 to 5.8."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.UA",
+    "description": "The UA column stores a patient's uric acid level as a real number, with values typically ranging from 0.4 to 17.3."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.CRE",
+    "description": "The CRE column stores creatinine levels as a real number, with values typically ranging from 0.1 to 17.1."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.UN",
+    "description": "The `UN` column stores integer-based unit numbers, potentially with missing values, ranging from 0 to 152."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.T-CHO",
+    "description": "T-CHO stores the total cholesterol values as integers, with some missing values, ranging from 37 to 568."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.TG",
+    "description": "The `TG` column stores integer values representing Triglyceride levels, with a significant number of missing values and observed values ranging from 1 to 867."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.GLU",
+    "description": "The GLU column stores integer values representing glucose levels, with a significant number of missing values and observed values ranging from 62 to 499."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.T-BIL",
+    "description": "The T-BIL column stores total bilirubin levels as a real number, with values ranging from 0.1 to 7.9 and approximately 30% missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.RBC",
+    "description": "The `RBC` column stores red blood cell counts as a real number, typically ranging from 0.4 to 6.6, with some missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.CPK",
+    "description": "The CPK column stores integer values representing Creatine Phosphokinase levels, with a significant number of missing values and a range from 0 to 10835."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.HGB",
+    "description": "HGB stores hemoglobin levels as a real number, typically ranging from 1.3 to 18.9."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.HCT",
+    "description": "The HCT column stores hematocrit levels as a real number, representing the percentage of blood volume composed of red blood cells."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.PT",
+    "description": "The PT column stores Prothrombin Time (PT) values, a real number typically between 10.1 and 27.0, but is frequently missing."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.WBC",
+    "description": "The WBC column stores white blood cell count values as decimal numbers, with a typical range between 0.9 and 35.2, and some missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.FG",
+    "description": "The FG column stores floating-point values representing a laboratory measurement, with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.APTT",
+    "description": "APTT stores integer values representing Activated Partial Thromboplastin Time measurements, but is mostly null."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.PLT",
+    "description": "PLT stores integer values representing platelet counts, with some missing values and a typical range between 5 and 5844."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.TAT",
+    "description": "TAT stores integer values representing turnaround time, but is mostly NULL."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.PIC",
+    "description": "The PIC column stores integer codes, likely identifiers, with a very high percentage of missing values and a small range of values between 114 and 700."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.IGG",
+    "description": "The IGG column stores integer values representing Immunoglobulin G (IgG) levels, with a significant number of missing values and observed values ranging from 3 to 6510."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.CRP",
+    "description": "The CRP column stores semi-quantitative or qualitative C-reactive protein (CRP) test results, often represented as numerical values, ranges (e.g., <0.3), or qualitative indicators (e.g., +, -)."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.RF",
+    "description": "The `RF` column stores laboratory test results, often representing numerical values with a less-than symbol prefix and occasional missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.SM",
+    "description": "The SM column stores laboratory measurements or flags, represented as text, with a high percentage of missing values and a limited set of distinct values including \"0\", \"negative\", and other numerical strings."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.C4",
+    "description": "Column C4 stores integer-based test results or measurements, ranging from 3 to 80, with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.RNP",
+    "description": "The RNP column stores laboratory results, likely related to ribonucleoprotein measurements, as text values that include numeric and qualitative results such as \"negative.\""
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.SC170",
+    "description": "SC170 stores laboratory test results or qualitative assessments, represented as text, with a high frequency of missing values and a limited set of distinct values like \"negative\" or numerical representations."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.IGM",
+    "description": "IGM stores integer-based measurements, potentially representing an index or magnitude, with a significant number of missing values."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.IGA",
+    "description": "IGA stores integer values representing immunoglobulin A levels, with a significant number of missing values and observed values ranging from 1 to 1765."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.DNA",
+    "description": "The `DNA` column stores DNA measurements or identifiers as text, but is mostly empty, containing numerical values with some decimal precision when populated."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.SSA",
+    "description": "The `SSA` column stores qualitative or semi-quantitative text-based results, potentially representing a score or category, but is mostly empty."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.C3",
+    "description": "Column C3 stores integer-based laboratory measurement values, potentially with missing data, ranging from 15 to 196."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.TAT2",
+    "description": "TAT2 stores integer values representing turnaround time, likely in minutes, for a small percentage of laboratory tests, with most values missing."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.DNA-II",
+    "description": "The DNA-II column stores integer values, but currently contains only NULL values in all rows."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.RA",
+    "description": "The `RA` column stores semi-quantitative laboratory results, often representing levels or presence with symbols like \"+\", \"-\", and numeric values followed by a \"+/-\" symbol."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.U-PRO",
+    "description": "U-PRO stores semi-quantitative or quantitative laboratory results, likely urine protein levels, as text values that may include numeric values, symbols like hyphens, and abbreviations such as \"TR,\" with approximately 30% of the values missing."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.CENTROMEA",
+    "description": "The CENTROMEA column in the Laboratory table stores textual data, with most values missing, and the present values indicate whether the measurement is \"0\" or \"negative\"."
+  },
+  {
+    "db_id": "thrombosis_prediction",
+    "full_name": "Laboratory.SSB",
+    "description": "The SSB column stores laboratory test results, likely related to a specific substance or measurement, using a mix of numerical and text-based values, but is mostly empty."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "atom.molecule_id",
+    "description": "The `molecule_id` column stores a text-based identifier for a molecule, formatted as a string starting with \"TR\" followed by a three-digit number."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "bond.molecule_id",
+    "description": "The `molecule_id` column stores a text-based identifier for a molecule, typically in the format \"TR\" followed by a numeric code."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "bond.bond_id",
+    "description": "The `bond_id` column stores a unique text identifier for each bond, following a pattern of \"TR[number]_[number]_[number]\"."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "connected.atom_id",
+    "description": "The `atom_id` column stores a unique identifier for each atom, formatted as a text string with a prefix like \"TR\" followed by numbers separated by an underscore."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "connected.atom_id2",
+    "description": "The `atom_id2` column stores a text-based identifier for an atom, following a pattern like \"TR[number]_[number]\"."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "connected.bond_id",
+    "description": "The `bond_id` column stores a unique text identifier for each bond, following a pattern such as \"TRXXX_Y_Z\"."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "molecule.molecule_id",
+    "description": "molecule_id stores a unique text identifier for each molecule, formatted as \"TR\" followed by a three-digit number."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "atom.element",
+    "description": "This column stores the element symbol as a short text string, such as 'h', 'c', or 'zn'."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "molecule.label",
+    "description": "The `label` column stores a molecule's charge as a text value, represented by \"+\" or \"-\"."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "bond.bond_type",
+    "description": "The `bond_type` column stores bond type codes, represented as single-character text values such as '-', '=', and '#'."
+  },
+  {
+    "db_id": "toxicology",
+    "full_name": "atom.atom_id",
+    "description": "The `atom_id` column stores a unique text identifier for each atom, following a \"TR[number]_[number]\" pattern."
+  }
+]

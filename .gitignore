@@ -1,0 +1,39 @@
+# Local datasets and model weights
+/BIRD/
+/models/
+/data/
+/outputs/
+/output/
+/docs/ablation_logs_gemini/
+/docs/ablation_token_summary_gemini.json
+/cache/
+/logs/
+*.sqlite
+*.sqlite3
+*.db
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.bin
+*.log
+*.csv
+# Python environments and generated artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+.DS_Store
+Thumbs.db
